@@ -35,7 +35,7 @@
 
 <!-- Navbar -->
 <div
-  class="navbar bg-neutral text-neutral-content h-20
+  class="navbar bg-neutral text-neutral-content h-20 z-10
 "
 >
   <!-- Navbar for Smaller Screens -->

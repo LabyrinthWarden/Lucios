@@ -30,7 +30,7 @@ declare module '$env/static/private' {
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
 	export const ChocolateyInstall: string;
-	export const CHROME_CRASHPAD_PIPE_NAME: string;
+	export const ChocolateyLastPathUpdate: string;
 	export const COLOR: string;
 	export const COLORTERM: string;
 	export const COMMONPROGRAMFILES: string;
@@ -41,9 +41,8 @@ declare module '$env/static/private' {
 	export const DISPLAY: string;
 	export const DriverData: string;
 	export const EDITOR: string;
+	export const EFC_9652: string;
 	export const EXEPATH: string;
-	export const FPS_BROWSER_APP_PROFILE_STRING: string;
-	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const GIT_ASKPASS: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
@@ -87,6 +86,7 @@ declare module '$env/static/private' {
 	export const npm_package_version: string;
 	export const NUMBER_OF_PROCESSORS: string;
 	export const OneDrive: string;
+	export const OneDriveConsumer: string;
 	export const ORIGINAL_PATH: string;
 	export const ORIGINAL_TEMP: string;
 	export const ORIGINAL_TMP: string;
@@ -94,7 +94,6 @@ declare module '$env/static/private' {
 	export const OS: string;
 	export const PATH: string;
 	export const PATHEXT: string;
-	export const PDFFOLDER: string;
 	export const PKG_CONFIG_PATH: string;
 	export const PKG_CONFIG_SYSTEM_INCLUDE_PATH: string;
 	export const PKG_CONFIG_SYSTEM_LIBRARY_PATH: string;
@@ -122,19 +121,16 @@ declare module '$env/static/private' {
 	export const TERM_PROGRAM_VERSION: string;
 	export const TMP: string;
 	export const TMPDIR: string;
-	export const USERDNSDOMAIN: string;
 	export const USERDOMAIN: string;
 	export const USERDOMAIN_ROAMINGPROFILE: string;
 	export const USERNAME: string;
 	export const USERPROFILE: string;
-	export const VBOX_MSI_INSTALL_PATH: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const WINDIR: string;
 	export const _: string;
-	export const __COMPAT_LAYER: string;
 }
 
 /**
@@ -170,7 +166,7 @@ declare module '$env/dynamic/private' {
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
 		ChocolateyInstall: string;
-		CHROME_CRASHPAD_PIPE_NAME: string;
+		ChocolateyLastPathUpdate: string;
 		COLOR: string;
 		COLORTERM: string;
 		COMMONPROGRAMFILES: string;
@@ -181,9 +177,8 @@ declare module '$env/dynamic/private' {
 		DISPLAY: string;
 		DriverData: string;
 		EDITOR: string;
+		EFC_9652: string;
 		EXEPATH: string;
-		FPS_BROWSER_APP_PROFILE_STRING: string;
-		FPS_BROWSER_USER_PROFILE_STRING: string;
 		GIT_ASKPASS: string;
 		HOME: string;
 		HOMEDRIVE: string;
@@ -227,6 +222,7 @@ declare module '$env/dynamic/private' {
 		npm_package_version: string;
 		NUMBER_OF_PROCESSORS: string;
 		OneDrive: string;
+		OneDriveConsumer: string;
 		ORIGINAL_PATH: string;
 		ORIGINAL_TEMP: string;
 		ORIGINAL_TMP: string;
@@ -234,7 +230,6 @@ declare module '$env/dynamic/private' {
 		OS: string;
 		PATH: string;
 		PATHEXT: string;
-		PDFFOLDER: string;
 		PKG_CONFIG_PATH: string;
 		PKG_CONFIG_SYSTEM_INCLUDE_PATH: string;
 		PKG_CONFIG_SYSTEM_LIBRARY_PATH: string;
@@ -262,19 +257,16 @@ declare module '$env/dynamic/private' {
 		TERM_PROGRAM_VERSION: string;
 		TMP: string;
 		TMPDIR: string;
-		USERDNSDOMAIN: string;
 		USERDOMAIN: string;
 		USERDOMAIN_ROAMINGPROFILE: string;
 		USERNAME: string;
 		USERPROFILE: string;
-		VBOX_MSI_INSTALL_PATH: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		VSCODE_GIT_IPC_HANDLE: string;
 		WINDIR: string;
 		_: string;
-		__COMPAT_LAYER: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
