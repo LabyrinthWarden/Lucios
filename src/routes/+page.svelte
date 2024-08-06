@@ -12,7 +12,7 @@
       <p class="mb-5">
         We're a small family owned business with delicious Mexican, Chinese, and American food. We serve breakfast, lunch, and dinner all day, Tuesday-Sunday.
       </p>
-      <a href="/menu"><button class="btn btn-primary">See Our Menu</button></a>
+      <a href="/menu"><button class="btn btn-success">See Our Menu</button></a>
     </div>
   </div>
 </div>

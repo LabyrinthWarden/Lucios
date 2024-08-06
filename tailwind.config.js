@@ -10,8 +10,8 @@ export default {
       'white': '#ffffff',
       'flag-green': '#006845',
       'flag-red': '#cf0922',
-    }
+    },
   },
 
-  plugins: [require('@tailwindcss/typography'),require('daisyui')],
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
 }

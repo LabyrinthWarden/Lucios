@@ -2,6 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+.wrapper {
+  min-height: 55vh;
+}
+
+
 .title-text {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
@@ -19,3 +25,4 @@
   font-weight: 700;
   font-style: normal;
 }
+
