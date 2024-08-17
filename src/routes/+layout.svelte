@@ -2,10 +2,12 @@
   import '../app.css'
   import { Icon, MapPin, DevicePhoneMobile } from 'svelte-hero-icons'
   import logo from '$lib/assets/img/logo.jpg'
+
+
 </script>
 
 <!-- Title Bar -->
-<div class="flex w-full h-20 text-white header-text-regular">
+<div class="md:flex w-full h-20 text-white header-text-regular hidden">
   <div
     class="grid gap-2 grid-cols-2 w-full h-full content-center bg-flag-green"
   >
@@ -37,11 +39,11 @@
 
 <!-- Navbar -->
 <div
-  class="navbar bg-neutral text-neutral-content h-20 z-10
+  class="navbar bg-neutral text-neutral-content h-20
 "
 >
   <!-- Navbar for Smaller Screens -->
-  <div class="navbar-start bg-neutral text-neutral-content md:hidden fixed">
+  <div class="navbar-start bg-neutral text-neutral-content md:hidden">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost">
         <svg
@@ -67,47 +69,56 @@
         <li><a href="/">Home</a></li>
         <li>
           <a href="/menu">Menu & Pricing</a>
-          <!-- <ul class="p-2">
-            <li><a>Breakfast</a></li>
-            <li><a>Lunch</a></li>
-            <li><a>Mexican</a></li>
-          </ul> -->
         </li>
         <li><a href="/about">About Us</a></li>
+        <li><a href="tel:5302831949">530-283-1949</a></li>
+        <li>
+          <a href="https://maps.app.goo.gl/3Uh1LhDJCWmfg6Qz7" target="_blank">
+            875 E Main St. Quincy, CA
+          </a>
+        </li>
       </ul>
     </div>
   </div>
 
-  <img
-    src={logo}
-    alt="Lucio's Mexican and American Restaurant"
-    class="h-20 mx-auto md:hidden z-10"
-  />
+  <div class="navbar-center md:hidden">
+    <img
+      src={logo}
+      alt="Lucio's Mexican and American Restaurant"
+      class="h-20 md:hidden z-10"
+    />
+  </div>
+  <div class="navbar-end text-xs md:hidden">
+
+  </div>
 
   <!-- Navbar Larger Screens -->
-  <div class="hidden md:flex w-full">
+  <div class="navbar-start hidden md:flex"></div>
+  <div class="navbar-center hidden md:flex">
     <ul
       class="menu menu-horizontal px-1 header-text-bold text-2xl mx-auto uppercase"
     >
-      <li><a href="/">Home</a></li>
-      <li>
-        <a href="/menu">Menu & Pricing</a>
-        <!-- <details>
-          <summary>Parent</summary>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details> -->
-      </li>
+      <li class="english"><a href="/">Home</a></li>
+      <li class="spanish"><a href="/">Home</a></li>
+      <li><a href="/menu">Menu & Pricing</a></li>
       <li><a href="/about">About Us</a></li>
     </ul>
   </div>
+  <div class="navbar-end hidden md:flex">
+    <div class="form-control">
+      <label class="label cursor-pointer">
+        <span class="label-text">Remember me</span>
+        <input type="checkbox" class="toggleLanguage" />
+      </label>
+    </div>
+  </div>
 </div>
 <div class="wrapper">
-<slot></slot>
+  <slot></slot>
 </div>
-<footer class="footer footer-center bg-flag-green text-neutral-content p-10 bottom-0">
+<footer
+  class="footer footer-center bg-flag-green text-neutral-content p-10 bottom-0"
+>
   <aside>
     <img src={logo} class="w-48" alt="Lucio's Logo" />
     <p class="font-bold">

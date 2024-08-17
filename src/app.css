@@ -26,3 +26,6 @@
   font-style: normal;
 }
 
+.toggleLanguage:checked ~ .english{
+  display: none;
+}
