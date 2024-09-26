@@ -2,6 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+:root {
+  --toastBackground: #facc15;
+  --toastColor: black;
+  --toastBarHeight: 0;
+}
 
 .wrapper {
   min-height: 55vh;
@@ -29,3 +34,4 @@
 .toggleLanguage:checked ~ .english{
   display: none;
 }
+
