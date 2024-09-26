@@ -1,8 +1,6 @@
 <script>
   import { Icon, MapPin, DevicePhoneMobile } from 'svelte-hero-icons'
   import logo from '$lib/assets/img/logo.jpg'
-
-
 </script>
 
 <!-- Title Bar -->
@@ -18,11 +16,13 @@
     </a>
   </div>
   <div class="w-full h-full">
-    <img
-      src={logo}
-      alt="Lucio's Mexican and American Restaurant"
-      class="h-20 mx-auto"
-    />
+    <a href="/">
+      <img
+        src={logo}
+        alt="Lucio's Mexican and American Restaurant"
+        class="h-20 mx-auto"
+      />
+    </a>
   </div>
   <div class="grid gap-2 grid-cols-2 w-full h-full content-center bg-flag-red">
     <Icon src={DevicePhoneMobile} solid class="w-12 h-12 justify-self-end"
@@ -76,20 +76,21 @@
             875 E Main St. Quincy, CA
           </a>
         </li>
+        <li><a href="/es" class="btn btn-info">Cambiar a Español</a></li>
       </ul>
     </div>
   </div>
 
   <div class="navbar-center md:hidden">
-    <img
-      src={logo}
-      alt="Lucio's Mexican and American Restaurant"
-      class="h-20 md:hidden z-10"
-    />
+    <a href="/">
+      <img
+        src={logo}
+        alt="Lucio's Mexican and American Restaurant"
+        class="h-20 md:hidden z-10"
+      />
+    </a>
   </div>
-  <div class="navbar-end text-xs md:hidden">
-
-  </div>
+  <div class="navbar-end text-xs md:hidden"></div>
 
   <!-- Navbar Larger Screens -->
   <div class="navbar-start hidden md:flex"></div>
@@ -103,7 +104,7 @@
     </ul>
   </div>
   <div class="navbar-end hidden md:flex">
-    
+    <a href="/es" class="btn btn-info">Cambiar a Español</a>
   </div>
 </div>
 <div class="wrapper">

@@ -16,11 +16,13 @@
     </a>
   </div>
   <div class="w-full h-full">
+    <a href="/">
     <img
       src={logo}
       alt="Restaurante Mexicano y Americano Lucio's"
       class="h-20 mx-auto"
     />
+    </a>
   </div>
   <div class="grid gap-2 grid-cols-2 w-full h-full content-center bg-flag-red">
     <Icon src={DevicePhoneMobile} solid class="w-12 h-12 justify-self-end"
@@ -74,6 +76,9 @@
             875 E Main St. Quincy, CA
           </a>
         </li>
+        <li>
+          <a href="/en" class="btn btn-info">Switch to English</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -100,7 +105,9 @@
       <li><a href="/about">Sobre Nosotros</a></li>
     </ul>
   </div>
-  <div class="navbar-end hidden md:flex"></div>
+  <div class="navbar-end hidden md:flex">
+    <a href="/en" class="btn btn-info">Switch to English</a>
+  </div>
 </div>
 
 <div class="wrapper">
