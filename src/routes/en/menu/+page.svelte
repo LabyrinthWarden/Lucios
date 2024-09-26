@@ -1,7 +1,7 @@
 <script>
-    /** @type {import('./$types').PageData} */
-    export let data;
-
+  /** @type {import('./$types').PageData} */
+  export let data
+  console.log(data)
 </script>
 
 <div class="grid grid-cols-1 place-items-center mt-10 w-full">
@@ -9,5 +9,9 @@
 </div>
 
 <div>
-  =
+  {#each data.menu as item}
+    <ul>
+      <li>{item.cetegory}</li>
+    </ul>
+  {/each}
 </div>
