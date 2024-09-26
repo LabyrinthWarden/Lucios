@@ -6,6 +6,8 @@
   --toastBackground: #facc15;
   --toastColor: black;
   --toastBarHeight: 0;
+  --toastBorderRadius: .75rem;
+  --toastBorder: 1px solid black;
 }
 
 .wrapper {
