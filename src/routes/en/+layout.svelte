@@ -65,11 +65,11 @@
         tabindex="0"
         class="menu menu-sm dropdown-content bg-neutral rounded-box z-[1] mt-3 w-52 p-2 shadow uppercase header-text-regular"
       >
-        <li><a href="/">Home</a></li>
+        <li><a href="/en">Home</a></li>
         <li>
-          <a href="/menu">Menu & Pricing</a>
+          <a href="/en/menu">Menu & Pricing</a>
         </li>
-        <li><a href="/about">About Us</a></li>
+        <li><a href="/en/about">About Us</a></li>
         <li><a href="tel:5302831949">530-283-1949</a></li>
         <li>
           <a href="https://maps.app.goo.gl/3Uh1LhDJCWmfg6Qz7" target="_blank">
@@ -98,9 +98,9 @@
     <ul
       class="menu menu-horizontal px-1 header-text-bold text-2xl mx-auto uppercase"
     >
-      <li><a href="/">Home</a></li>
-      <li><a href="/menu">Menu</a></li>
-      <li><a href="/about">About Us</a></li>
+      <li><a href="/en">Home</a></li>
+      <li><a href="/en/menu">Menu</a></li>
+      <li><a href="/en/about">About Us</a></li>
     </ul>
   </div>
   <div class="navbar-end hidden md:flex">
