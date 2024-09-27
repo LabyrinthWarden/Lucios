@@ -118,7 +118,7 @@
     <p class="font-bold">
       <!-- Lucio's -->
       <br />
-      Providing great Mexican, American, and Chinese food since 2000
+      Providing great Mexican, American, and Chinese food since 2007.
     </p>
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>

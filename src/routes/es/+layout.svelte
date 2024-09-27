@@ -122,7 +122,7 @@
     <p class="font-bold">
       <!-- Lucio's -->
       <br />
-      Ofreciendo excelente comida mexicana, estadounidense y china desde el año 2000.
+      Ofreciendo excelente comida mexicana, estadounidense y china desde el año 2007.
     </p>
     <p>Derechos de autor © {new Date().getFullYear()} - Reservados todos los derechos</p>
   </aside>
