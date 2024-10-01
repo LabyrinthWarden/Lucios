@@ -1,9 +1,0 @@
-{
-  "navbar": {
-    "home": "Home",
-    "menu": "Menu",
-    "about": "About"
-  },
-  "greeting": "Hello",
-  "farewell": "Goodbye"
-}

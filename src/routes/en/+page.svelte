@@ -24,7 +24,7 @@
         American food. We serve breakfast, lunch, and dinner all day,
         Tuesday-Sunday.
       </p>
-      <a href="/menu"><button class="btn btn-success">See Our Menu</button></a>
+      <a href="/en/menu"><button class="btn btn-success">See Our Menu</button></a>
     </div>
   </div>
 </div>
