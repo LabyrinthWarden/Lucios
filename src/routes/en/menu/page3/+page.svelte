@@ -3,6 +3,9 @@
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
   import MenuNavButtons from '$lib/components/MenuNavButtons.svelte'
+
+  import hamburgerImage from '$lib/assets/img/hamburger.png'
+  import saladImage from '$lib/assets/img/salad.png'
 </script>
 
 <div class="grid grid-cols-1 place-items-center mt-10 mb-5 w-full">
@@ -10,83 +13,93 @@
 </div>
 
 <div class="carousel w-full mb-20">
-  <!-- Menu Page Three -->
+  <!-- Menu Page Two -->
   <div class="carousel-item relative w-full">
     <div class="w-full">
-      <!-- Mexican Favorites Section -->
+      <!-- Sandwiches Section -->
       <div class="mb-6 text-center">
-        <MenuSectionHeader category="Mexican Favorites" />
+        <MenuSectionHeader
+          category="Sandwiches"
+          categoryDescription="Served with coleslaw, salad, fresh cut fries, or curly fries."
+        />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-1 md:text-left">
           <div>
             <MenuItem
-              name="Papa con Chorizo"
-              price="15.99"
-              description="Homemade Mexican sausage scrambled with potatoes, served with two eggs, beans, and tow tortillas"
+              name="Grilled Cheese"
+              price="10.95"
+              description="Three pieces of whitew bread with American cheese."
             />
             <MenuItem
-              name="Huevos con Chorizo"
-              price="15.99"
-              description="Homemade sausage scrambled with eggs, onions, bell peppers, and cheese, "
+              name="Grilled Cheese and Tomatoes"
+              price="12.95"
+              description="Grilled tomatoes and American cheese on sourdough bread."
             />
             <MenuItem
-              name="Huevos Rancheros"
-              price="14.99"
-              description="Fried corn tortilla topped with eggs, onions, cilantro, homemade chili verde sauce or homemade vegetarian red sauce, and sour cream.  Served with rice, beans, and torillas."
+              name="Grilled Ham and Cheese"
+              price="12.95"
+              description="Ham and American cheese on sourdough bread."
             />
             <MenuItem
-              name="Pozole"
-              price="12.99"
-              description="Our traditional homemade soup from Mexico; pozole, which means 'hominy' is garnished with shredded cabbage, onions, and land lime.  Served with torillas."
+              name="Chicken Salad Sandwich"
+              price="12.95"
+              description="Chicken salad with lettuce on a French roll."
             />
             <MenuItem
-              name="Menudo"
-              price="12.99"
-              description="Our traditional homemade Mexican soup; garnished with jalapenos, cilantro, onions, lime, and torillas."
+              name="Tuna Salad Sandwich"
+              price="12.95"
+              description="Tuna salad with lettuce on white toast."
             />
             <MenuItem
-              name="Chilaquiles"
-              price="12.99"
-              description="Torilla chips cooked in a red sauce topped with Mexican cheese, onions, and sour cream, served with two eggs any style and beans."
+              name="Grilled Club"
+              price="15.95"
+              description="Ham, roast beef, roasted turkey, bacon, tomatoes, and American cheese on grilled sourdough bread."
             />
             <MenuItem
-              name="Machaca"
-              price="15.99"
-              description="Shredded beef scrambled with eggs, onions, bell peppers, and cheese.  Served with rice, beans, and torillas."
+              name="Triple Decker Club"
+              price="15.95"
+              description="Ham, roasted turkey, bacon, and American cheese toasted white bread."
+            />
+            <MenuItem
+              name="BLT"
+              price="13.95"
+              description="Bacon, lettuce, and tomatoes on white bread."
             />
           </div>
           <div>
             <MenuItem
-              name="Tostada, Small (corn) 11.99 / Large (flour) 13.95"
-              description="Fried torilla topped with beans, choice of shredded chicken, shredded beef, ground beef, or chicken; lettuce, tomatoes, and cheese topped with sour cream and guacamole."
+              name="Monte Cristo"
+              price="14.95"
+              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
             />
             <MenuItem
-              name="Nachos"
-              price="14.99"
-              description="Corn tortilla chips topped with beans, choice of shredded chicken, shredded beef, or ground beef; topped with cheese, sour cream, and guacamole."
+              name="Philly Cheese Steak"
+              price="15.95"
+              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
             />
             <MenuItem
-              name="Mexican Pizza"
-              price="15.99"
-              description="Homemade fry bread topped with your choice of shredded chicken, shredded beef, or ground beef, beans, cheese, tomatoes, sour cream, and guacamole."
+              name="New York Steak"
+              price="20.95"
+              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
             />
             <MenuItem
-              name="Torta"
-              price="14.99"
-              description="Homemade fry bread topped with your choice of shredded chicken, shredded beef, or ground beef, lettuce, cheese, sour cream, and guacamole."
+              name="Tuna Melt"
+              price="13.95"
+              description="Tuna salad with American cheese on grilled sourdough."
             />
             <MenuItem
-              name="Taco Salad Small 11.99 / Large 14.99"
-              description="Flour tortilla bowl filled with your choice of shredded chicken, shredded beef, or ground beef, rice, beans, lettuce, tomatoes, and cheese, topped with sour cream and guacamole."
+              name="Patty Melt"
+              price="15.95"
+              description="All beef patty, American cheese, and grilled onions on grilled rye."
             />
-          </div>
-          <div
-            class="border border-warning border2 grid gap-1 py-5 mt-8 mx-10 min-h-20"
-          >
-            <div class="font-bold">
-              <MenuSectionHeader categoryDescription="HOMEMADE TAMALES" />
-            </div>
             <MenuItem
-              description="Chicken, pork, beef, or spinach and cheese."
+              name="Bagel"
+              price="14.95"
+              description="An everything bagel with one egg any style, American cheese, tomatoes, and onions. Choice of sausage patty, ham, or bacon."
+            />
+            <MenuItem
+              name="Turkey Melt"
+              price="14.95"
+              description="Turkey, grilled onions, and tomatoes with Jack cheese and avacadoes on grilled rye bread."
             />
           </div>
         </div>
@@ -123,7 +136,11 @@
               description="Chicken breast topped with grilled onions and mushrooms."
             />
           </div>
-
+          <img
+            src={hamburgerImage}
+            alt="Burger and fries"
+            class="hidden md:block mt-8 -ml-6 -z-10 scale-125"
+          />
           <div>
             <MenuItem
               name="Western Burger"
@@ -190,6 +207,11 @@
               name="Grilled Cheese and Tomatoes"
               price="12.95"
               description="Grilled tomatoes and American cheese on sourdough bread."
+            />
+            <img
+              src={saladImage}
+              alt="a cobb salad"
+              class="hidden md:block scale-75 -ml-10 -mt-8 -z-10"
             />
           </div>
           <div>
