@@ -80,9 +80,8 @@
               name="Taco Salad Small 11.99 / Large 14.99"
               description="Flour tortilla bowl filled with your choice of shredded chicken, shredded beef, or ground beef, rice, beans, lettuce, tomatoes, and cheese, topped with sour cream and guacamole."
             />
-          </div>
-          <div
-            class="lg:absolute md:right-0 md:top-[30.5%] mx-auto mt-4 max-w-64 border-warning border-4 grid gap-1 py-3 md:mt-0 md:mx-10 min-h-20"
+            <div
+            class="justify-self-end mx-auto mt-4 max-w-64 border-warning border-4 grid gap-1 py-3 min-h-20"
           >
             <div class="font-bold text-center">
               <MenuSectionHeader categoryDescription="HOMEMADE TAMALES" />
@@ -93,6 +92,8 @@
               />
             </div>
           </div>
+          </div>
+          
         </div>
       </div>
 
