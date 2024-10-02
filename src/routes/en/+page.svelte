@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's will be closed Friday, September 20th through Monday, September 23rd",
+      "Lucio's new website is under construction.  Please check back soon for updates.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
@@ -24,7 +24,9 @@
         American food. We serve breakfast, lunch, and dinner all day,
         Tuesday-Sunday.
       </p>
-      <a href="/en/menu"><button class="btn btn-success">See Our Menu</button></a>
+      <a href="/en/menu"
+        ><button class="btn btn-success">See Our Menu</button></a
+      >
     </div>
   </div>
 </div>

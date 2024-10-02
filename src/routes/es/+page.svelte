@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's estará cerrado del viernes 20 de septiembre al lunes 23 de septiembre.",
+      "El nuevo sitio web de Lucio está en construcción. Vuelva a visitarnos pronto para ver las actualizaciones.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
