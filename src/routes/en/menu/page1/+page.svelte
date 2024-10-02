@@ -2,7 +2,7 @@
   /** @type {import('./$types').PageData} */
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtons from '$lib/components/MenuNavButtons.svelte';
+  import MenuNavButtons from '$lib/components/MenuNavButtons.svelte'
   import pancakeImage from '$lib/assets/img/pancakes.png'
 </script>
 
@@ -164,7 +164,9 @@
         </div>
       </div>
       <!-- B&G, Waffles and Pancakes Section -->
-      <div class="grid grid-cols-1 md:grid-cols-3 mb-6 text-center md:text-left md:ml-6">
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 mb-6 text-center md:text-left md:ml-6"
+      >
         <div class="">
           <MenuSectionHeader category="Homemade Biscuits & Gravy" />
           <div class="mb-3">
@@ -256,35 +258,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-     <MenuNavButtons 
-     previousPageNum=4
-     nextPageNum=2
-     />
-    
-  </div>
-  
-  <div id="page3" class="carousel-item relative w-full">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-      class="w-full"
-    />
-    <div
-      class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-    >
-      <a href="#page2" class="btn btn-circle">❮</a>
-      <a href="#page4" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="page4" class="carousel-item relative w-full">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-      class="w-full"
-    />
-    <div
-      class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-    >
-      <a href="#page3" class="btn btn-circle">❮</a>
-      <a href="#page1" class="btn btn-circle">❯</a>
-    </div>
+    <MenuNavButtons previousPageNum="3" nextPageNum="2" />
   </div>
 </div>
