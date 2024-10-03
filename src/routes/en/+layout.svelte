@@ -1,6 +1,10 @@
 <script>
   import { Icon, MapPin, DevicePhoneMobile } from 'svelte-hero-icons'
   import logo from '$lib/assets/img/logo.jpg'
+
+  import { page } from '$app/stores'
+  $: urlAfterLang = $page.url.pathname.slice(4)
+
 </script>
 
 <!-- Title Bar -->
@@ -76,7 +80,7 @@
             875 E Main St. Quincy, CA
           </a>
         </li>
-        <li><a href="/es" class="btn btn-info">Cambiar a Español</a></li>
+        <li><a href="/es/{urlAfterLang}" class="btn btn-info">Cambiar a Español</a></li>
       </ul>
     </div>
   </div>
@@ -104,7 +108,7 @@
     </ul>
   </div>
   <div class="navbar-end hidden md:flex">
-    <a href="/es" class="btn btn-info">Cambiar a Español</a>
+    <a href="/es/{urlAfterLang}" class="btn btn-info">Cambiar a Español</a>
   </div>
 </div>
 <div class="wrapper">
