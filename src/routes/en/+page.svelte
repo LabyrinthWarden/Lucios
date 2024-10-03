@@ -12,6 +12,7 @@
       }
     )
   })
+
 </script>
 
 <div class="hero min-h-screen" style="background-image: url({heroImage});">

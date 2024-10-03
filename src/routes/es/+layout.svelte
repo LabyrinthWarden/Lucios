@@ -1,6 +1,10 @@
 <script>
   import { Icon, MapPin, DevicePhoneMobile } from 'svelte-hero-icons'
   import logo from '$lib/assets/img/logo.jpg'
+
+  import { page } from '$app/stores'
+  $: urlAfterLang = $page.url.pathname.slice(4)
+
 </script>
 
 <!-- Title Bar -->
@@ -17,11 +21,11 @@
   </div>
   <div class="w-full h-full">
     <a href="/">
-    <img
-      src={logo}
-      alt="Restaurante Mexicano y Americano Lucio's"
-      class="h-20 mx-auto"
-    />
+      <img
+        src={logo}
+        alt="Restaurante Mexicano y Americano Lucio's"
+        class="h-20 mx-auto"
+      />
     </a>
   </div>
   <div class="grid gap-2 grid-cols-2 w-full h-full content-center bg-flag-red">
@@ -77,7 +81,7 @@
           </a>
         </li>
         <li>
-          <a href="/en" class="btn btn-info">Switch to English</a>
+          <a href="/en/{urlAfterLang}" class="btn btn-info">Switch to English</a>
         </li>
       </ul>
     </div>
@@ -106,7 +110,7 @@
     </ul>
   </div>
   <div class="navbar-end hidden md:flex">
-    <a href="/en" class="btn btn-info">Switch to English</a>
+    <a href="/en/{urlAfterLang}" class="btn btn-info">Switch to English</a>
   </div>
 </div>
 
@@ -124,7 +128,9 @@
       <br />
       Ofreciendo excelente comida mexicana, estadounidense y china desde el año 2007.
     </p>
-    <p>Derechos de autor © {new Date().getFullYear()} - Reservados todos los derechos</p>
+    <p>
+      Derechos de autor © {new Date().getFullYear()} - Reservados todos los derechos
+    </p>
   </aside>
   <nav>
     <div class="grid grid-flow-col gap-4">
