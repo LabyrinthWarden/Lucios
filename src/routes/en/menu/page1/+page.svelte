@@ -258,6 +258,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtons previousPageNum="3" nextPageNum="2" />
+    <MenuNavButtons previousPageNum="5" nextPageNum="2" />
   </div>
 </div>

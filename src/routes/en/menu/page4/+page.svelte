@@ -4,8 +4,9 @@
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
   import MenuNavButtons from '$lib/components/MenuNavButtons.svelte'
 
-  import hamburgerImage from '$lib/assets/img/hamburger.png'
-  import saladImage from '$lib/assets/img/salad.png'
+  import burritoImage from '$lib/assets/img/burrito.png'
+  import molcajeteImage from '$lib/assets/img/molcajete.png'
+  import pineappleImage from '$lib/assets/img/pineapple.png'
 </script>
 
 <div class="grid grid-cols-1 place-items-center mt-10 mb-5 w-full">
@@ -13,7 +14,7 @@
 </div>
 
 <div class="carousel w-full mb-20">
-  <!-- Menu Page Two -->
+  <!-- Menu Page Four -->
   <div class="carousel-item relative w-full">
     <div class="w-full">
       <div class="grid md:grid-cols-2">
@@ -24,7 +25,7 @@
             categoryDescription="Served with steamed rice."
           />
 
-          <div>
+          <div class="md:text-left">
             <div class="mx-4">
               <h4 class="text-[#7f1d1d] font-semibold text-xl">Chow Mein</h4>
               <p class="">
@@ -85,145 +86,167 @@
         />
         <div class="grid grid-cols-1 md:grid-cols-3 gap-1 md:text-left">
           <div>
-            <MenuItem name="Bacon Cheeseburger" price="15.95" />
             <MenuItem
-              name="Double Cheeseburger"
-              price="19.99"
-              description="Add bacon 2.00"
+              name="Burrito"
+              price="13.95"
+              description="Rice and beans with your choice of shredded beef, ground beef, or shredded chicken."
             />
             <MenuItem
-              name="Hamburger"
-              price="12.95"
-              description="Add cheese 1.00"
-            />
-            <MenuItem name="Teriyaki Burger" price="15.95" />
-            <MenuItem
-              name="Chili Burger"
+              name="California Burrito"
               price="15.95"
-              description="Homemade chili topped with cheddar cheese and onions."
+              description="Carne asada, French fries, pico de gallo, cheese, and guacamole."
             />
             <MenuItem
-              name="Teriyaki Chicken Burger"
-              price="14.95"
-              description="Chicken breast topped with grilled onions and mushrooms."
+              name="Breakfast Burrito"
+              price="13.95"
+              description="Ham, sausage, or bacon and choice of potatoes scrambled with eggs and cheese, topped with sour cream."
+            />
+            <MenuItem
+              name="San Diego Burrito"
+              price="15.95"
+              description="Carne asada, guacamole, tomatoes, onions, and cilantro."
             />
           </div>
           <img
-            src={hamburgerImage}
-            alt="Burger and fries"
+            src={burritoImage}
+            alt="a burrito"
             class="hidden md:block mt-8 -ml-6 -z-10 scale-125"
           />
           <div>
             <MenuItem
-              name="Western Burger"
+              name="Giant Burrito"
               price="16.95"
-              description="Pepper Jack cheese, bacon, and BBQ sauce, topped with an onion ring."
+              description="Rice, beans, with your choice of shredded chicken, ground beef, shredded beef, or pork.  Topped with red sauce, cheese, sour cream, and guacamole."
             />
             <MenuItem
-              name="Fish Burger"
+              name="Chorizo Burrito"
               price="14.95"
-              description="Fried tilapia topped with lettuce, tomatoes, and onions."
+              description="Chorizo scrambled with home fries, eggs, and cheese."
             />
             <MenuItem
-              name="Stuffed Burger"
+              name="Chile Verde Burrito"
               price="16.95"
-              description="Stuffed with bacon, mushrooms, and Swiss cheese."
+              description="Pork, rice, beans, and cheese, topped with Chile Verde sauce, sour cream, and guacamole."
             />
             <MenuItem
-              name="Pulled Pork Burger"
-              price="14.95"
-              description="BBQ pulled pork topped with onions rings and coleslaw."
+              name="Carne Asada or Carnitas Burrito"
+              price="16.95"
+              description="Rice, beans, cheese, and guacamole."
             />
           </div>
-        </div>
-        <div
-          class="border border-warning border-dashed rounded-2xl grid gap-1 md:grid-cols-3 py-5 mt-8 mx-10 min-h-20"
-        >
-          <div class="font-bold text-center col-span-full">
-            <MenuSectionHeader
-              categoryDescription="Served with steamed vegetables and your choice of mashed potatoes, fresh cut fries, or curly fries."
-            />
-          </div>
-          <MenuItem
-            name="French Dip"
-            price="14.95"
-            description="Sliced roast beef in a french roll."
-          />
-          <MenuItem
-            name="Hot Roast Beef"
-            price="15.95"
-            description="Sliced roast beef served open-faced on white bread topped with brown gravy."
-          />
-          <MenuItem
-            name="Hot Turkey"
-            price="15.95"
-            description="Sliced turkey served open-faced on white bread topped with turkey gravy"
-          />
         </div>
       </div>
 
-      <!-- Salads Section -->
+      <!-- Mexican Specialties Section -->
       <div class="mb-6 text-center">
         <MenuSectionHeader
-          category="Salads"
-          categoryDescription="Served with garlic toast and your choice of dressing."
+          category="Mexican Specialties"
+          categoryDescription="Served with rice, beans, sour cream, and guacamole, with your choice flour or corn torillas."
         />
         <div class="grid md:grid-cols-2 gap-1 text-center md:text-left">
           <div>
             <MenuItem
-              name="Grilled Cheese"
-              price="10.95"
-              description="Three pieces of whitew bread with American cheese."
+              name="Lucio's Special"
+              price="22.95"
+              description="New York Steak & Chile Relleno."
+            />
+            <div class="mx-4">
+              <h4 class="text-[#7f1d1d] font-semibold text-xl">
+                Sizzling Fajitas
+              </h4>
+              <p class="">
+                Chicken or Beef 18.95 <br />
+                Shrimp 19.95 <br />
+                Sauteed with bell peppers, onions, and marinated in teriyaki sauce,
+                topped with tomatoes.
+              </p>
+            </div>
+            <MenuItem
+              name="Steak Ranchero"
+              price="17.95"
+              description="Top sirlioin steak strips cooked with bell peppers, onions, tomatoes, and potatoes."
             />
             <MenuItem
-              name="Grilled Cheese and Tomatoes"
-              price="12.95"
-              description="Grilled tomatoes and American cheese on sourdough bread."
+              name="Carne Asada"
+              price="17.95"
+              description="Top sirloin steak topped with onions and bell peppers."
             />
+            <MenuItem
+              name="Camarones a la Diabla"
+              price="17.95"
+              description="Shrimp cooked in our homemade red sauce, choice of hot or mild."
+            />
+            <MenuItem
+              name="Chile Colorado"
+              price="17.95"
+              description="Top sirloin steak strip cooked in our homemade red sauce, choice of hot or mild."
+            />
+            <MenuItem
+              name="Carnitas"
+              price="17.95"
+              description="Homemade carnitas served with pico de gallo."
+            />
+            <MenuItem
+              name="Camarones Rancheros"
+              price="17.95"
+              description="Shrimp cooked in pico de gallo."
+            />
+
             <img
-              src={saladImage}
-              alt="a cobb salad"
-              class="hidden md:block scale-75 -ml-10 -mt-8 -z-10"
+              src={molcajeteImage}
+              alt="a molcajete dish"
+              class="hidden place-self-center md:block ml-12 mt-4 -z-10"
             />
           </div>
           <div>
-            <MenuItem
-              name="Monte Cristo"
-              price="14.95"
-              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
-            />
-            <MenuItem
-              name="Philly Cheese Steak"
-              price="15.95"
-              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
-            />
-            <MenuItem
-              name="New York Steak"
-              price="20.95"
-              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
-            />
-            <MenuItem
-              name="Tuna Melt"
-              price="13.95"
-              description="Tuna salad with American cheese on grilled sourdough."
-            />
-            <MenuItem
-              name="Patty Melt"
-              price="15.95"
-              description="All beef patty, American cheese, and grilled onions on grilled rye."
-            />
-            <!-- Footnote -->
-            <div class="mt-12 max-w-96">
-              <p class="font-semibold text-error">
-                Starting at 11 AM, first basket of chips and salsa per table are
-                free. EXTRA basket of chips & salsa 3.00
+            <div class="mx-4">
+              <h4 class="text-[#7f1d1d] font-semibold text-xl">
+                Hawaiian Fajita Plate
+              </h4>
+              <p class="">
+                Chicken or Beef 20.95 <br />
+                Shrimp 21.95 <br />
+                Fresh pineapple bowl filled with grilled bell peppers, onions, and
+                pineapples marinated in a teriyaki sauce and topped with your choice
+                of grilled chicken, steak, or shrimp skewers.
               </p>
             </div>
+            <MenuItem
+              name="Grilled Tilapia"
+              price="17.95"
+              description="Topped with pico de gallo."
+            />
+
+            <MenuItem
+              name="Pollo Fundido"
+              price="17.95"
+              description="Chicken and mushrooms simmered in our homemade red sauce, topped with Jack cheese."
+            />
+            <MenuItem
+              name="Momias Camarones"
+              price="18.95"
+              description="Shrimp wrapped in bacon, cooked in our homemade red sauce with onions and bell peppers, topped with Jack cheese."
+            />
+            <MenuItem
+              name="Mar y Tierra"
+              price="22.95"
+              description="New York steak served withj shrimp."
+            />
+            <MenuItem
+              name="Molcajete"
+              price="25.95"
+              description="Grilled chicken, carne asada, chorizo, shrimp, Oaxaca cheese, and grilled onions and jalapeños."
+            />
+            <img
+              src={pineappleImage}
+              alt="pinapple fajitas dish"
+              class="hidden md:block scale-75 ml-8 -mt-16 -z-10"
+            />
           </div>
         </div>
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtons previousPageNum="2" nextPageNum="1" />
+    <MenuNavButtons previousPageNum="3" nextPageNum="5" />
   </div>
 </div>

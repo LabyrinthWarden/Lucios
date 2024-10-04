@@ -12,7 +12,7 @@
 </div>
 
 <div class="carousel w-full mb-20">
-  <!-- Menu Page Three -->
+  <!-- Menu Page Two -->
   <div class="carousel-item relative w-full">
     <div class="w-full">
       <!-- Mexican Favorites Section -->
@@ -110,7 +110,7 @@
             <MenuItem name="1. One Enchilada" price="10.99" />
             <MenuItem name="2. One regular Taco" price="10.99" />
             <MenuItem name="3. Chili Relleno" price="12.99" />
-            <MenuItem name="4. Tamale" price="12.99" />
+            <MenuItem name="4. Tamal" price="12.99" />
             <MenuItem name="5. Chimichanga" price="15.50" />
             <MenuItem name="6. Quesadilla" price="14.50" />
             <MenuItem name="7. Two Enchiladas" price="14.99" />
@@ -125,10 +125,10 @@
           <div
             class="text-center md:text-right md:max-w-md md:justify-self-end"
           >
-            <MenuItem name="14. Enchilada and Tamale" price="16.50" />
+            <MenuItem name="14. Enchilada and Tamal" price="16.50" />
             <MenuItem name="15. Regular Taco & Chile Relleno" price="16.50" />
             <MenuItem name="16. Regular Taco & Tamale" price="16.50" />
-            <MenuItem name="17. Tamale and Chili Relleno" price="17.50" />
+            <MenuItem name="17. Tamal and Chili Relleno" price="17.50" />
             <MenuItem name="18. Three Taquitos" price="16.50" />
             <MenuItem name="19. Three Enchiladas" price="17.50" />
             <MenuItem name="20. Three regular Tacos" price="16.50" />
@@ -137,11 +137,11 @@
               price="19.99"
             />
             <MenuItem
-              name="22. Regular Taco, Chili Relleno, & Tamale"
+              name="22. Regular Taco, Chili Relleno, & Tamal"
               price="19.99"
             />
             <MenuItem
-              name="23. Chili Relleno, Enchilada, & Tamale"
+              name="23. Chili Relleno, Enchilada, & Tamal"
               price="19.99"
             />
           </div>
