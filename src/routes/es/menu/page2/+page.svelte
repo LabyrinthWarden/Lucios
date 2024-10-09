@@ -2,14 +2,10 @@
   /** @type {import('./$types').PageData} */
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtons from '$lib/components/MenuNavButtons.svelte'
-
+  import MenuNavButtonsEs from '$lib/components/MenuNavButtonsEs.svelte'
   import tacoImage from '$lib/assets/img/tacos.png'
+  import enchiladaImage from '$lib/assets/img/enchiladas.png'
 </script>
-
-<div class="grid grid-cols-1 place-items-center mt-10 mb-5 w-full">
-  <h2 class="text-6xl title-text">Our Menu</h2>
-</div>
 
 <div class="carousel w-full mb-20">
   <!-- Menu Page Three -->
@@ -17,83 +13,82 @@
     <div class="w-full">
       <!-- Mexican Favorites Section -->
       <div class="mb-6 text-center">
-        <MenuSectionHeader category="Mexican Favorites" />
+        <MenuSectionHeader category="Favoritos Mexicanos" />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-1 md:text-left">
           <div>
             <MenuItem
               name="Papa con Chorizo"
               price="15.99"
-              description="Homemade Mexican sausage scrambled with potatoes, served with two eggs, beans, and tow tortillas"
+              description="Salchicha mexicana casera revuelta con papas, servida con dos huevos, frijoles y tortillas"
             />
             <MenuItem
               name="Huevos con Chorizo"
               price="15.99"
-              description="Homemade sausage scrambled with eggs, onions, bell peppers, and cheese, "
+              description="Salchichas caseras revueltas con huevos, cebollas, pimientos morrones y queso, servidas con arroz, frijoles y tortillas."
             />
             <MenuItem
               name="Huevos Rancheros"
               price="14.99"
-              description="Fried corn tortilla topped with eggs, onions, cilantro, homemade chili verde sauce or homemade vegetarian red sauce, and sour cream.  Served with rice, beans, and torillas."
+              description="Tortilla de maíz frita cubierta con huevos, cebollas, cilantro, salsa de chile verde casera o salsa roja vegetariana casera y crema agria. Servida con arroz, frijoles y tortillas."
             />
             <MenuItem
               name="Pozole"
               price="12.99"
-              description="Our traditional homemade soup from Mexico; pozole, which means 'hominy' is garnished with shredded cabbage, onions, and land lime.  Served with torillas."
+              description="Nuestra sopa casera tradicional de México, el pozole, se adereza con repollo rallado, cebollas y limón. Se sirve con tortillas."
             />
             <MenuItem
               name="Menudo"
               price="12.99"
-              description="Our traditional homemade Mexican soup; garnished with jalapenos, cilantro, onions, lime, and torillas."
+              description="Nuestra tradicional sopa mexicana casera; aderezada con jalapeños, cilantro, cebollas, limón y tortillas."
             />
             <MenuItem
               name="Chilaquiles"
               price="12.99"
-              description="Torilla chips cooked in a red sauce topped with Mexican cheese, onions, and sour cream, served with two eggs any style and beans."
+              description="Chips de tortilla cocinados en salsa roja cubiertos con queso mexicano, cebollas y crema agria, servidos con dos huevos al estilo y frijoles."
             />
             <MenuItem
               name="Machaca"
               price="15.99"
-              description="Shredded beef scrambled with eggs, onions, bell peppers, and cheese.  Served with rice, beans, and torillas."
+              description="Carne de res deshebrada revuelta con huevos, cebollas, pimientos morrones y queso. Servida con arroz, frijoles y tortillas."
             />
           </div>
           <div>
             <MenuItem
-              name="Tostada, Small (corn) 11.99 / Large (flour) 13.95"
-              description="Fried torilla topped with beans, choice of shredded chicken, shredded beef, ground beef, or chicken; lettuce, tomatoes, and cheese topped with sour cream and guacamole."
+              name="Tostada, Pequeño (maíz) 11.99 / Grande (harina) 13.95"
+              description="Tortilla frita cubierta con frijoles, elección de pollo desmenuzado, carne desmenuzada, carne molida o pollo; lechuga, tomates y queso cubiertos con crema agria y guacamole."
             />
             <MenuItem
               name="Nachos"
               price="14.99"
-              description="Corn tortilla chips topped with beans, choice of shredded chicken, shredded beef, or ground beef; topped with cheese, sour cream, and guacamole."
+              description="Chips de tortilla de maíz cubiertos con frijoles, opción de pollo desmenuzado, carne desmenuzada o carne molida; cubiertos con queso, crema agria y guacamole."
             />
             <MenuItem
-              name="Mexican Pizza"
+              name="Pizza Mexicana"
               price="15.99"
-              description="Homemade fry bread topped with your choice of shredded chicken, shredded beef, or ground beef, beans, cheese, tomatoes, sour cream, and guacamole."
+              description="Pan frito casero cubierto con su elección de pollo desmenuzado, carne desmenuzada o carne molida, frijoles, queso, tomates, crema agria y guacamole."
             />
             <MenuItem
               name="Torta"
               price="14.99"
-              description="Homemade fry bread topped with your choice of shredded chicken, shredded beef, or ground beef, lettuce, cheese, sour cream, and guacamole."
+              description="Pan frito casero cubierto con su elección de pollo desmenuzado, carne desmenuzada o carne molida, lechuga, queso, crema agria y guacamole."
             />
             <MenuItem
-              name="Taco Salad Small 11.99 / Large 14.99"
-              description="Flour tortilla bowl filled with your choice of shredded chicken, shredded beef, or ground beef, rice, beans, lettuce, tomatoes, and cheese, topped with sour cream and guacamole."
+              name="Ensalada de Tacos Pequeña 11.99 / Grande 14.99"
+              description="Tazón de tortilla de harina relleno con su elección de pollo desmenuzado, carne desmenuzada o carne molida, arroz, frijoles, lechuga, tomates y queso, cubierto con crema agria y guacamole."
             />
             <div
-            class="justify-self-end mx-auto mt-4 max-w-64 border-warning border-4 grid gap-1 py-3 min-h-20"
-          >
-            <div class="font-bold text-center">
-              <MenuSectionHeader categoryDescription="HOMEMADE TAMALES" />
-            </div>
-            <div class="text-center">
-              <MenuItem
-                description="Chicken, pork, beef, or spinach and cheese."
-              />
+              class="justify-self-end mx-auto mt-4 max-w-64 border-warning border-4 grid gap-1 py-3 min-h-20"
+            >
+              <div class="font-bold text-center">
+                <MenuSectionHeader categoryDescription="TAMALES CASEROS" />
+              </div>
+              <div class="text-center">
+                <MenuItem
+                  description="Pollo, cerdo, ternera o espinacas y queso."
+                />
+              </div>
             </div>
           </div>
-          </div>
-          
         </div>
       </div>
 
@@ -101,11 +96,11 @@
       <div class="mb-6 text-center">
         <div class="mx-auto max-w-[72%]">
           <MenuSectionHeader
-            category="Mexican Combo"
-            categoryDescription="Served with rice and beans. Your choice of shredded chicken, shredded beef, ground beef, or chili verde. For carne asada or carnitas, 2.00 extra."
+            category="Combo Mexicano"
+            categoryDescription="Servido con arroz y frijoles. Puede elegir entre pollo desmenuzado, carne desmenuzada, carne molida o chile verde. Para carne asada o carnitas, 2.00 adicionales."
           />
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+        <div class="grid md:grid-cols-3 gap-1">
           <div class="text-center md:text-left">
             <MenuItem name="1. One Enchilada" price="10.99" />
             <MenuItem name="2. One regular Taco" price="10.99" />
@@ -121,7 +116,9 @@
             <MenuItem name="12. Enchilada & regular Taco" price="15.99" />
             <MenuItem name="13. Enchilada and Chile Relleno" price="16.50" />
           </div>
-
+          <div class="grid">
+            <img class="hidden md:block place-self-center scale-125" src={enchiladaImage} alt="cheese enchiladas">
+          </div>
           <div
             class="text-center md:text-right md:max-w-md md:justify-self-end"
           >
@@ -164,7 +161,7 @@
             <MenuItem
               name="Tacos de Papa"
               price="15.95"
-              description="Mashed potatoes and cheese, fried in a corn torilla topped with lettuce, carrots, pickled onions, and Mexican cheese."
+              description="Mashed potatoes and cheese, fried in a corn tortilla topped with lettuce, carrots, pickled onions, and Mexican cheese."
             />
             <div class="grid grid-cols-1 md:grid-cols-3 ml-2 mt-4">
               <div
@@ -220,6 +217,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtons previousPageNum="1" nextPageNum="3" />
+    <MenuNavButtonsEs previousPageNum="1" nextPageNum="3" />
   </div>
 </div>

@@ -2,7 +2,7 @@
   /** @type {import('./$types').PageData} */
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtons from '$lib/components/MenuNavButtons.svelte'
+  import MenuNavButtonsEn from '$lib/components/MenuNavButtonsEn.svelte'
 
   import tacoImage from '$lib/assets/img/tacos.png'
 </script>
@@ -23,43 +23,43 @@
             <MenuItem
               name="Papa con Chorizo"
               price="15.99"
-              description="Homemade Mexican sausage scrambled with potatoes, served with two eggs, beans, and tow tortillas"
+              description="Homemade Mexican sausage scrambled with potatoes, served with two eggs, beans, and tortillas"
             />
             <MenuItem
               name="Huevos con Chorizo"
               price="15.99"
-              description="Homemade sausage scrambled with eggs, onions, bell peppers, and cheese, "
+              description="Homemade sausage scrambled with eggs, onions, bell peppers, and cheese, served with rice, beans, and tortillas."
             />
             <MenuItem
               name="Huevos Rancheros"
               price="14.99"
-              description="Fried corn tortilla topped with eggs, onions, cilantro, homemade chili verde sauce or homemade vegetarian red sauce, and sour cream.  Served with rice, beans, and torillas."
+              description="Fried corn tortilla topped with eggs, onions, cilantro, homemade chili verde sauce or homemade vegetarian red sauce, and sour cream.  Served with rice, beans, and tortillas."
             />
             <MenuItem
               name="Pozole"
               price="12.99"
-              description="Our traditional homemade soup from Mexico; pozole, which means 'hominy' is garnished with shredded cabbage, onions, and land lime.  Served with torillas."
+              description="Our traditional homemade soup from Mexico; pozole, which means 'hominy' is garnished with shredded cabbage, onions, and land lime.  Served with tortillas."
             />
             <MenuItem
               name="Menudo"
               price="12.99"
-              description="Our traditional homemade Mexican soup; garnished with jalapenos, cilantro, onions, lime, and torillas."
+              description="Our traditional homemade Mexican soup; garnished with jalapenos, cilantro, onions, lime, and tortillas."
             />
             <MenuItem
               name="Chilaquiles"
               price="12.99"
-              description="Torilla chips cooked in a red sauce topped with Mexican cheese, onions, and sour cream, served with two eggs any style and beans."
+              description="tortilla chips cooked in a red sauce topped with Mexican cheese, onions, and sour cream, served with two eggs any style and beans."
             />
             <MenuItem
               name="Machaca"
               price="15.99"
-              description="Shredded beef scrambled with eggs, onions, bell peppers, and cheese.  Served with rice, beans, and torillas."
+              description="Shredded beef scrambled with eggs, onions, bell peppers, and cheese.  Served with rice, beans, and tortillas."
             />
           </div>
           <div>
             <MenuItem
               name="Tostada, Small (corn) 11.99 / Large (flour) 13.95"
-              description="Fried torilla topped with beans, choice of shredded chicken, shredded beef, ground beef, or chicken; lettuce, tomatoes, and cheese topped with sour cream and guacamole."
+              description="Fried tortilla topped with beans, choice of shredded chicken, shredded beef, ground beef, or chicken; lettuce, tomatoes, and cheese topped with sour cream and guacamole."
             />
             <MenuItem
               name="Nachos"
@@ -164,7 +164,7 @@
             <MenuItem
               name="Tacos de Papa"
               price="15.95"
-              description="Mashed potatoes and cheese, fried in a corn torilla topped with lettuce, carrots, pickled onions, and Mexican cheese."
+              description="Mashed potatoes and cheese, fried in a corn tortilla topped with lettuce, carrots, pickled onions, and Mexican cheese."
             />
             <div class="grid grid-cols-1 md:grid-cols-3 ml-2 mt-4">
               <div
@@ -220,6 +220,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtons previousPageNum="1" nextPageNum="3" />
+    <MenuNavButtonsEn previousPageNum="1" nextPageNum="3" />
   </div>
 </div>

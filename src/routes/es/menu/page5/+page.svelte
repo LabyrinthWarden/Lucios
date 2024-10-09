@@ -3,7 +3,7 @@
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuExtras from '$lib/components/MenuExtras.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtonsEn from '$lib/components/MenuNavButtonsEn.svelte'
+  import MenuNavButtonsEs from '$lib/components/MenuNavButtonsEs.svelte'
 
   import chipsAndSalsaImage from '$lib/assets/img/chips-salsa.png'
   import beverageImage from '$lib/assets/img/beverage.png'
@@ -261,6 +261,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtonsEn previousPageNum="4" nextPageNum="1" />
+    <MenuNavButtonsEs previousPageNum="4" nextPageNum="1" />
   </div>
 </div>

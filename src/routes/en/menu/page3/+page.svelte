@@ -2,7 +2,7 @@
   /** @type {import('./$types').PageData} */
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtons from '$lib/components/MenuNavButtons.svelte'
+  import MenuNavButtonsEn from '$lib/components/MenuNavButtonsEn.svelte'
 
   import hamburgerImage from '$lib/assets/img/hamburger.png'
   import saladImage from '$lib/assets/img/salad.png'
@@ -252,6 +252,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtons previousPageNum="2" nextPageNum="4" />
+    <MenuNavButtonsEn previousPageNum="2" nextPageNum="4" />
   </div>
 </div>

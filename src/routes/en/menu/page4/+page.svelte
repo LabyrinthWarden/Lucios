@@ -2,7 +2,7 @@
   /** @type {import('./$types').PageData} */
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtons from '$lib/components/MenuNavButtons.svelte'
+  import MenuNavButtonsEn from '$lib/components/MenuNavButtonsEn.svelte'
 
   import burritoImage from '$lib/assets/img/burrito.png'
   import molcajeteImage from '$lib/assets/img/molcajete.png'
@@ -247,6 +247,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtons previousPageNum="3" nextPageNum="5" />
+    <MenuNavButtonsEn previousPageNum="3" nextPageNum="5" />
   </div>
 </div>

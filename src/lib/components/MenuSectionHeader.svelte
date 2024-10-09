@@ -12,6 +12,6 @@
 <p class="mb-3 font-bold">
   {categoryDescription}
 </p>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+<div class="grid md:grid-cols-2 gap-1">
   <slot />
 </div>
