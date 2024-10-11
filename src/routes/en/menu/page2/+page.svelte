@@ -186,7 +186,7 @@
             <MenuItem
               name="Tacos Mexicanos"
               price="15.95"
-              description="Carne asada cooked with pico de gallo; topped with Mexican chees and sour cream."
+              description="Carne asada cooked with pico de gallo; topped with Mexican cheese and sour cream."
             />
             <MenuItem
               name="Carnitas Tacos"
@@ -201,7 +201,7 @@
             <MenuItem
               name="Ensenada Tacos"
               price="15.95"
-              description="Breaded shrip or fish; topped with cabbage, onions, and cilantro; served with our special Ensenada sauce."
+              description="Breaded shrimp or fish; topped with cabbage, onions, and cilantro; served with our special Ensenada sauce."
             />
             <MenuItem
               name="Carne Asada Tacos"

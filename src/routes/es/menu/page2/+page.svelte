@@ -102,19 +102,19 @@
         </div>
         <div class="grid md:grid-cols-3 gap-1">
           <div class="text-center md:text-left">
-            <MenuItem name="1. One Enchilada" price="10.99" />
-            <MenuItem name="2. One regular Taco" price="10.99" />
+            <MenuItem name="1. Un Enchilada" price="10.99" />
+            <MenuItem name="2. Un Taco Regular" price="10.99" />
             <MenuItem name="3. Chili Relleno" price="12.99" />
-            <MenuItem name="4. Tamale" price="12.99" />
+            <MenuItem name="4. Tamal" price="12.99" />
             <MenuItem name="5. Chimichanga" price="15.50" />
             <MenuItem name="6. Quesadilla" price="14.50" />
-            <MenuItem name="7. Two Enchiladas" price="14.99" />
-            <MenuItem name="8. Two regular Tacos" price="14.99" />
-            <MenuItem name="9. Two Chili Rellenos" price="17.50" />
-            <MenuItem name="10. Two Tamales" price="17.50" />
-            <MenuItem name="11. Two Sopes" price="14.99" />
-            <MenuItem name="12. Enchilada & regular Taco" price="15.99" />
-            <MenuItem name="13. Enchilada and Chile Relleno" price="16.50" />
+            <MenuItem name="7. Dos Enchiladas" price="14.99" />
+            <MenuItem name="8. Dos Tacos Regulares" price="14.99" />
+            <MenuItem name="9. Dos Chili Rellenos" price="17.50" />
+            <MenuItem name="10. Dos Tamales" price="17.50" />
+            <MenuItem name="11. Dos Sopes" price="14.99" />
+            <MenuItem name="12. Enchilada y Taco Regular" price="15.99" />
+            <MenuItem name="13. Enchilada y Chile Relleno" price="16.50" />
           </div>
           <div class="grid">
             <img class="hidden md:block place-self-center scale-125" src={enchiladaImage} alt="cheese enchiladas">
@@ -122,23 +122,23 @@
           <div
             class="text-center md:text-right md:max-w-md md:justify-self-end"
           >
-            <MenuItem name="14. Enchilada and Tamale" price="16.50" />
-            <MenuItem name="15. Regular Taco & Chile Relleno" price="16.50" />
-            <MenuItem name="16. Regular Taco & Tamale" price="16.50" />
-            <MenuItem name="17. Tamale and Chili Relleno" price="17.50" />
-            <MenuItem name="18. Three Taquitos" price="16.50" />
-            <MenuItem name="19. Three Enchiladas" price="17.50" />
-            <MenuItem name="20. Three regular Tacos" price="16.50" />
+            <MenuItem name="14. Enchilada y Tamal" price="16.50" />
+            <MenuItem name="15. Taco Regular y Chile Relleno" price="16.50" />
+            <MenuItem name="16. Taco Regular y Tamal" price="16.50" />
+            <MenuItem name="17. Tamal y Chili Relleno" price="17.50" />
+            <MenuItem name="18. Tres Taquitos" price="16.50" />
+            <MenuItem name="19. Tres Enchiladas" price="17.50" />
+            <MenuItem name="20. Tres Tacos Regulares" price="16.50" />
             <MenuItem
-              name="21. Regular Taco, Chile Relleno, & Enchilada"
+              name="21. Taco Regular, Chile Relleno y Enchilada"
               price="19.99"
             />
             <MenuItem
-              name="22. Regular Taco, Chili Relleno, & Tamale"
+              name="22. Taco Regular, Chili Relleno, y Tamal"
               price="19.99"
             />
             <MenuItem
-              name="23. Chili Relleno, Enchilada, & Tamale"
+              name="23. Chili Relleno, Enchilada, y Tamal"
               price="19.99"
             />
           </div>
@@ -149,27 +149,26 @@
       <div class="mb-6 text-center">
         <MenuSectionHeader
           category="Tacos"
-          categoryDescription="Orders come with two tacos, served with rice and beans"
+          categoryDescription="Los pedidos vienen con dos tacos, servidos con arroz y frijoles."
         />
         <div class="grid md:grid-cols-2 gap-1 text-center md:text-left">
           <div>
             <MenuItem
-              name="Alambre Tacos"
+              name="Tacos de Alambre"
               price="15.95"
-              description="Carne asada, bacon, and chorizo topped with onions, cilantro, and cabbage."
+              description="Carne asada, tocino y chorizo ​​cubiertos con cebolla, cilantro y repollo."
             />
             <MenuItem
               name="Tacos de Papa"
               price="15.95"
-              description="Mashed potatoes and cheese, fried in a corn tortilla topped with lettuce, carrots, pickled onions, and Mexican cheese."
+              description="Puré de papas y queso, frito en una tortilla de maíz cubierta con lechuga, zanahorias, cebollas encurtidas y queso mexicano."
             />
             <div class="grid grid-cols-1 md:grid-cols-3 ml-2 mt-4">
               <div
                 class="border-2 border-dashed border-error text-lg text-center max-w-36 leading-loose"
               >
                 <p class="max-w-24 mx-auto mt-4">
-                  Choice of Salsa: Chipotle, Habanero, Tomatillo Salsa. Extra
-                  side of salsa 1.75
+                  Salsa a elegir: salsa chipotle, habanero o tomatillo. Guarnición de salsa extra: 1.75
                 </p>
               </div>
               <img
@@ -183,33 +182,32 @@
             <MenuItem
               name="Tacos Mexicanos"
               price="15.95"
-              description="Carne asada cooked with pico de gallo; topped with Mexican chees and sour cream."
+              description="Carne asada cocinada con pico de gallo; cubierta con queso mexicano y crema agria."
             />
             <MenuItem
-              name="Carnitas Tacos"
+              name="Tacos de Carnitas"
               price="15.95"
-              description="Pork cooked with pico de gallo; topped with onions and cilantro."
+              description="Cerdo cocinado con pico de gallo; cubierto con cebolla y cilantro."
             />
             <MenuItem
-              name="Shrimp or Fish Tacos"
+              name="Tacos de Camarones o Pescado"
               price="15.95"
-              description="Grilled shrimp cooked with pico de gallo, topped with onions and cilantro."
+              description="Camarones a la parrilla cocinados con pico de gallo, cubiertos con cebolla y cilantro."
             />
             <MenuItem
-              name="Ensenada Tacos"
+              name="Tacos de Ensenada"
               price="15.95"
-              description="Breaded shrip or fish; topped with cabbage, onions, and cilantro; served with our special Ensenada sauce."
+              description="Camarones o pescado empanizados, cubiertos con repollo, cebolla y cilantro; servidos con nuestra salsa especial Ensenada."
             />
             <MenuItem
-              name="Carne Asada Tacos"
+              name="Tacos de Carne Asada"
               price="15.95"
-              description="Steak topped with onions and cilantro."
+              description="Bistec cubierto con cebolla y cilantro."
             />
             <!-- Footnote -->
             <div class="mt-12 max-w-96 ml-6">
               <p class="font-semibold text-error">
-                Starting at 11 AM, first basket of chips and salsa per table are
-                free. EXTRA basket of chips & salsa 3.00
+                A partir de las 11:00 h, la primera cesta de patatas fritas y salsa por mesa es gratuita. Cesta extra de patatas fritas y salsa 3.00
               </p>
             </div>
           </div>
