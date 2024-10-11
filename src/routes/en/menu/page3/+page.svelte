@@ -199,52 +199,51 @@
         <div class="grid md:grid-cols-2 gap-1 text-center md:text-left">
           <div>
             <MenuItem
-              name="Grilled Cheese"
-              price="10.95"
-              description="Three pieces of whitew bread with American cheese."
+              name="Grilled Chicken Salad"
+              price="15.99"
+              description="Cheese, tomatoes, cucumber, and a sliced egg."
             />
             <MenuItem
-              name="Grilled Cheese and Tomatoes"
-              price="12.95"
+              name="Cobb Salad"
+              price="15.99"
               description="Grilled tomatoes and American cheese on sourdough bread."
             />
             <img
               src={saladImage}
-              alt="a cobb salad"
+              alt="a fiesta salad"
               class="hidden md:block scale-75 -ml-10 -mt-8 -z-10"
             />
           </div>
           <div>
             <MenuItem
-              name="Monte Cristo"
-              price="14.95"
-              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
+              name="Chef Salad"
+              price="15.99"
+              description="Turkey, ham, roast beef, cheese, tomatoes, cucumber, and sliced egg."
             />
             <MenuItem
-              name="Philly Cheese Steak"
-              price="15.95"
-              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
+              name="Caesar Salad"
+              price="15.99"
+              description="Grilled chicken, romaine lettuce, croutons, and a sliced egg."
             />
             <MenuItem
-              name="New York Steak"
-              price="20.95"
-              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
+              name="Cajun Salad"
+              price="15.99"
+              description="Crispy chicken, olives, tomatoes, cucumbers, and a sliced egg."
             />
             <MenuItem
-              name="Tuna Melt"
-              price="13.95"
-              description="Tuna salad with American cheese on grilled sourdough."
+              name="Fiesta Salad"
+              price="15.99"
+              description="Choice of chicken or steak, black beans, garbanzo beans, bell peppers, and tortilla chips."
             />
             <MenuItem
-              name="Patty Melt"
-              price="15.95"
-              description="All beef patty, American cheese, and grilled onions on grilled rye."
+              name="Shrimp Salad"
+              price="16.50"
+              description="Shrimp cooked with mushrooms and onions, served with cheese, tomatoes, cucumber and a sliced egg."
             />
             <!-- Footnote -->
             <div class="mt-12 max-w-96">
               <p class="font-semibold text-error">
-                Starting at 11 AM, first basket of chips and salsa per table are
-                free. EXTRA basket of chips & salsa 3.00
+                Extra side of dressing 1.00
               </p>
             </div>
           </div>
