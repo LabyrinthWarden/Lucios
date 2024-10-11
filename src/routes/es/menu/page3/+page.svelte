@@ -195,52 +195,51 @@
         <div class="grid md:grid-cols-2 gap-1 text-center md:text-left">
           <div>
             <MenuItem
-              name="Grilled Cheese"
-              price="10.95"
-              description="Three pieces of whitew bread with American cheese."
+              name="Ensalada de pollo a la parrilla"
+              price="15.99"
+              description="Queso, tomates, pepino y un huevo en rodajas."
             />
             <MenuItem
-              name="Grilled Cheese and Tomatoes"
-              price="12.95"
-              description="Grilled tomatoes and American cheese on sourdough bread."
+              name="Ensalada Cobb"
+              price="15.99"
+              description="Tomates a la parrilla y queso americano sobre pan de masa madre."
             />
             <img
               src={saladImage}
-              alt="a cobb salad"
+              alt="a fiesta salad"
               class="hidden md:block scale-75 -ml-10 -mt-8 -z-10"
             />
           </div>
           <div>
             <MenuItem
-              name="Monte Cristo"
-              price="14.95"
-              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
+              name="Ensalada del chef"
+              price="15.99"
+              description="Pavo, jamón, carne asada, queso, tomates, pepino y huevo en rodajas."
             />
             <MenuItem
-              name="Philly Cheese Steak"
-              price="15.95"
-              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
+              name="Ensalada César"
+              price="15.99"
+              description="Pollo a la parrilla, lechuga romana, crutones y un huevo en rodajas."
             />
             <MenuItem
-              name="New York Steak"
-              price="20.95"
-              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
+              name="Ensalada cajún"
+              price="15.99"
+              description="Pollo crujiente, aceitunas, tomates, pepinos y un huevo en rodajas."
             />
             <MenuItem
-              name="Tuna Melt"
-              price="13.95"
-              description="Tuna salad with American cheese on grilled sourdough."
+              name="Ensalada Fiesta"
+              price="15.99"
+              description="Opción de pollo o bistec, frijoles negros, garbanzos, pimientos morrones y chips de tortilla."
             />
             <MenuItem
-              name="Patty Melt"
-              price="15.95"
-              description="All beef patty, American cheese, and grilled onions on grilled rye."
+              name="Ensalada de camarones"
+              price="16.50"
+              description="Camarones cocidos con champiñones y cebollas, servidos con queso, tomates, pepino y un huevo en rodajas."
             />
             <!-- Footnote -->
             <div class="mt-12 max-w-96">
               <p class="font-semibold text-error">
-                Starting at 11 AM, first basket of chips and salsa per table are
-                free. EXTRA basket of chips & salsa 3.00
+                Aderezo extra 3.00
               </p>
             </div>
           </div>

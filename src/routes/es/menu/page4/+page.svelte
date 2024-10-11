@@ -2,252 +2,243 @@
   /** @type {import('./$types').PageData} */
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtonsEs from '$lib/components/MenuNavButtonsEs.svelte'
+  import MenuNavButtonsEn from '$lib/components/MenuNavButtonsEn.svelte'
 
-  import hamburgerImage from '$lib/assets/img/hamburger.png'
-  import saladImage from '$lib/assets/img/salad.png'
+  import burritoImage from '$lib/assets/img/burrito.png'
+  import molcajeteImage from '$lib/assets/img/molcajete.png'
+  import pineappleImage from '$lib/assets/img/pineapple.png'
 </script>
 
 <div class="carousel w-full mb-20">
-  <!-- Menu Page Two -->
+  <!-- Menu Page Four -->
   <div class="carousel-item relative w-full">
     <div class="w-full">
-      <!-- Sandwiches Section -->
-      <div class="mb-6 text-center">
-        <MenuSectionHeader
-          category="Sandwiches"
-          categoryDescription="Served with coleslaw, salad, fresh cut fries, or curly fries."
-        />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-1 md:text-left">
-          <div>
+      <div class="grid md:grid-cols-2">
+        <!-- Chinese Specialties Section -->
+        <div class="mb-6 text-center">
+          <MenuSectionHeader
+            category="Especialidades chinas"
+            categoryDescription="Servido con arroz al vapor."
+          />
+
+          <div class="md:text-left">
+            <div class="mx-4">
+              <h4 class="text-[#7f1d1d] font-semibold text-xl">Chow Mein</h4>
+              <p class="">
+                Pollo o carne de res <br />
+                Camarones o mariscos 15.95 <br />
+                Verduras 13.95 <br />
+                Agregue verduras adicionales 4.00
+              </p>
+            </div>
+            <MenuItem name="Pollo Kung Pao" price="14.95" />
             <MenuItem
-              name="Grilled Cheese"
-              price="10.95"
-              description="Three pieces of whitew bread with American cheese."
+              name="Agridulce"
+              price="14.95"
+              description="Pollo o cerdo"
             />
             <MenuItem
-              name="Grilled Cheese and Tomatoes"
-              price="12.95"
-              description="Grilled tomatoes and American cheese on sourdough bread."
+              name="Pollo al limón"
+              price="14.95"
+              description="Ensalada de atún con lechuga sobre tostadas blancas."
             />
-            <MenuItem
-              name="Grilled Ham and Cheese"
-              price="12.95"
-              description="Ham and American cheese on sourdough bread."
-            />
-            <MenuItem
-              name="Chicken Salad Sandwich"
-              price="12.95"
-              description="Chicken salad with lettuce on a French roll."
-            />
-            <MenuItem
-              name="Tuna Salad Sandwich"
-              price="12.95"
-              description="Tuna salad with lettuce on white toast."
-            />
-            <MenuItem
-              name="Grilled Club"
-              price="15.95"
-              description="Ham, roast beef, roasted turkey, bacon, tomatoes, and American cheese on grilled sourdough bread."
-            />
-            <MenuItem
-              name="Triple Decker Club"
-              price="15.95"
-              description="Ham, roasted turkey, bacon, and American cheese toasted white bread."
-            />
-            <MenuItem
-              name="BLT"
-              price="13.95"
-              description="Bacon, lettuce, and tomatoes on white bread."
+            <MenuItem name="Carne de res y brócoli" price="14.95" />
+          </div>
+        </div>
+        <!-- American Specialties Section -->
+        <div class="mb-6 text-center">
+          <div class="max-w-96 mx-auto">
+            <MenuSectionHeader
+              category="Especialidades americanas"
+              categoryDescription="Servido con verduras al vapor, puré de papas, tostadas con ajo y sopa o ensalada."
             />
           </div>
-          <div>
+          <div class="md:text-left">
             <MenuItem
-              name="Monte Cristo"
-              price="14.95"
-              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
-            />
-            <MenuItem
-              name="Philly Cheese Steak"
-              price="15.95"
-              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
-            />
-            <MenuItem
-              name="New York Steak"
+              name="Filete de pollo frito"
               price="20.95"
-              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
+              description=""
             />
             <MenuItem
-              name="Tuna Melt"
-              price="13.95"
-              description="Tuna salad with American cheese on grilled sourdough."
+              name="Filete de Nueva York"
+              price="20.95"
+              description="Filete de 8 onzas"
             />
             <MenuItem
-              name="Patty Melt"
-              price="15.95"
-              description="All beef patty, American cheese, and grilled onions on grilled rye."
+              name="Bistec de costilla"
+              price="27.95"
+              description="Filete de 12 onzas"
             />
-            <MenuItem
-              name="Bagel"
-              price="14.95"
-              description="An everything bagel with one egg any style, American cheese, tomatoes, and onions. Choice of sausage patty, ham, or bacon."
-            />
-            <MenuItem
-              name="Turkey Melt"
-              price="14.95"
-              description="Turkey, grilled onions, and tomatoes with Jack cheese and avacadoes on grilled rye bread."
-            />
+            <MenuItem name="Chuletas de cerdo" price="20.95" />
           </div>
         </div>
       </div>
 
-      <!-- Burgers Section -->
+      <!-- Burritos Section -->
       <div class="mb-6 text-center">
         <MenuSectionHeader
-          category="Burgers"
-          categoryDescription="1/3 lb. all beef patty served with salad, fresh cut fries, or curly fries."
+          category="Burritos"
+          categoryDescription="Agregue chile verde o salsa roja 2.00"
         />
         <div class="grid grid-cols-1 md:grid-cols-3 gap-1 md:text-left">
           <div>
-            <MenuItem name="Bacon Cheeseburger" price="15.95" />
             <MenuItem
-              name="Double Cheeseburger"
-              price="19.99"
-              description="Add bacon 2.00"
+              name="Burrito"
+              price="13.95"
+              description="Arroz y frijoles con su elección de carne desmenuzada, carne molida o pollo desmenuzado."
             />
             <MenuItem
-              name="Hamburger"
-              price="12.95"
-              description="Add cheese 1.00"
-            />
-            <MenuItem name="Teriyaki Burger" price="15.95" />
-            <MenuItem
-              name="Chili Burger"
+              name="Burrito de California"
               price="15.95"
-              description="Homemade chili topped with cheddar cheese and onions."
+              description="Carne asada, papas fritas, pico de gallo, queso y guacamole."
             />
             <MenuItem
-              name="Teriyaki Chicken Burger"
-              price="14.95"
-              description="Chicken breast topped with grilled onions and mushrooms."
+              name="Burrito de desayuno"
+              price="13.95"
+              description="Jamón, salchicha o tocino y elección de papas revueltas con huevos y queso, cubiertas con crema agria."
+            />
+            <MenuItem
+              name="Burrito de San Diego"
+              price="15.95"
+              description="Carne asada, guacamole, tomates, cebollas y cilantro."
             />
           </div>
           <img
-            src={hamburgerImage}
-            alt="Burger and fries"
+            src={burritoImage}
+            alt="Un burrito cubierto con salsa roja y queso, cubierto con crema agria y guacamole."
             class="hidden md:block mt-8 -ml-6 -z-10 scale-125"
           />
           <div>
             <MenuItem
-              name="Western Burger"
+              name="Burrito gigante"
               price="16.95"
-              description="Pepper Jack cheese, bacon, and BBQ sauce, topped with an onion ring."
+              description="Arroz, frijoles, con pollo desmenuzado, carne molida, carne de res desmenuzada o cerdo a elección. Cubierto con salsa roja, queso, crema agria y guacamole."
             />
             <MenuItem
-              name="Fish Burger"
+              name="Burrito de chorizo"
               price="14.95"
-              description="Fried tilapia topped with lettuce, tomatoes, and onions."
+              description="Chorizo ​​revuelto con patatas fritas, huevos y queso."
             />
             <MenuItem
-              name="Stuffed Burger"
+              name="Burrito de chile verde"
               price="16.95"
-              description="Stuffed with bacon, mushrooms, and Swiss cheese."
+              description="Cerdo, arroz, frijoles y queso, cubierto con salsa de Chile Verde, crema agria y guacamole."
             />
             <MenuItem
-              name="Pulled Pork Burger"
-              price="14.95"
-              description="BBQ pulled pork topped with onions rings and coleslaw."
+              name="Carne Asada o Carnitas Burrito"
+              price="16.95"
+              description="Arroz, frijoles, queso y guacamole."
             />
           </div>
-        </div>
-        <div
-          class="border border-warning border-dashed rounded-2xl grid gap-1 md:grid-cols-3 py-5 mt-8 mx-10 min-h-20"
-        >
-          <div class="font-bold text-center col-span-full">
-            <MenuSectionHeader
-              categoryDescription="Served with steamed vegetables and your choice of mashed potatoes, fresh cut fries, or curly fries."
-            />
-          </div>
-          <MenuItem
-            name="French Dip"
-            price="14.95"
-            description="Sliced roast beef in a french roll."
-          />
-          <MenuItem
-            name="Hot Roast Beef"
-            price="15.95"
-            description="Sliced roast beef served open-faced on white bread topped with brown gravy."
-          />
-          <MenuItem
-            name="Hot Turkey"
-            price="15.95"
-            description="Sliced turkey served open-faced on white bread topped with turkey gravy"
-          />
         </div>
       </div>
 
-      <!-- Salads Section -->
-      <div class="mb-6 text-center">
+      <!-- Mexican Specialties Section -->
+      <div class="mb-6 text-center space-y-2">
         <MenuSectionHeader
-          category="Salads"
-          categoryDescription="Served with garlic toast and your choice of dressing."
+          category="Especialidades mexicanas"
+          categoryDescription="Servido con arroz, frijoles, crema agria y guacamole, con tortillas de harina o maíz de su elección."
         />
         <div class="grid md:grid-cols-2 gap-1 text-center md:text-left">
           <div>
             <MenuItem
-              name="Grilled Cheese"
-              price="10.95"
-              description="Three pieces of whitew bread with American cheese."
+              name="Especial de Lucio"
+              price="22.95"
+              description="Filete de Nueva York y Chile Relleno."
+            />
+            <div class="mx-4">
+              <h4 class="text-[#7f1d1d] font-semibold text-xl">
+                Fajitas chispeantes
+              </h4>
+              <p class="">
+                Pollo o Carne 18.95 <br />
+                Camarones 19.95 <br />
+                Salteados con pimientos morrones, cebollas y marinados en salsa teriyaki, cubiertos con tomates.
+              </p>
+            </div>
+            <MenuItem
+              name="Filete Ranchero"
+              price="17.95"
+              description="Tiras de filete de solomillo cocinadas con pimientos morrones, cebollas, tomates y patatas."
             />
             <MenuItem
-              name="Grilled Cheese and Tomatoes"
-              price="12.95"
-              description="Grilled tomatoes and American cheese on sourdough bread."
+              name="Carne Asada"
+              price="17.95"
+              description="Bistec de solomillo superior cubierto con cebollas y pimientos morrones."
             />
+            <MenuItem
+              name="Camarones a la Diabla"
+              price="17.95"
+              description="Camarones cocinados en nuestra salsa roja casera, a elegir entre picante o suave."
+            />
+            <MenuItem
+              name="Chile Colorado"
+              price="17.95"
+              description="Tira de solomillo superior cocinada en nuestra salsa roja casera, a elegir entre picante o suave."
+            />
+            <MenuItem
+              name="Carnitas"
+              price="17.95"
+              description="Carnitas caseras servidas con pico de gallo."
+            />
+            <MenuItem
+              name="Camarones Rancheros"
+              price="17.95"
+              description="Camarones cocidos en pico de gallo."
+            />
+
             <img
-              src={saladImage}
-              alt="a cobb salad"
-              class="hidden md:block scale-75 -ml-10 -mt-8 -z-10"
+              src={molcajeteImage}
+              alt="a molcajete dish"
+              class="hidden place-self-center md:block ml-12 mt-4 -z-10"
             />
           </div>
           <div>
-            <MenuItem
-              name="Monte Cristo"
-              price="14.95"
-              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
-            />
-            <MenuItem
-              name="Philly Cheese Steak"
-              price="15.95"
-              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
-            />
-            <MenuItem
-              name="New York Steak"
-              price="20.95"
-              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
-            />
-            <MenuItem
-              name="Tuna Melt"
-              price="13.95"
-              description="Tuna salad with American cheese on grilled sourdough."
-            />
-            <MenuItem
-              name="Patty Melt"
-              price="15.95"
-              description="All beef patty, American cheese, and grilled onions on grilled rye."
-            />
-            <!-- Footnote -->
-            <div class="mt-12 max-w-96">
-              <p class="font-semibold text-error">
-                Starting at 11 AM, first basket of chips and salsa per table are
-                free. EXTRA basket of chips & salsa 3.00
+            <div class="mx-4">
+              <h4 class="text-[#7f1d1d] font-semibold text-xl">
+                Plato de fajitas hawaianas
+              </h4>
+              <p class="">
+                Pollo o carne de res 20.95 <br />
+                Camarones 21.95 <br />
+                Tazón de piña fresca lleno de pimientos morrones a la parrilla, cebollas y piñas marinadas en salsa teriyaki y cubierto con su elección de brochetas de pollo a la parrilla, bistec o camarones.
               </p>
             </div>
+            <MenuItem
+              name="Tilapia a la parrilla"
+              price="17.95"
+              description="Cubierto con pico de gallo."
+            />
+            <MenuItem
+              name="Pollo Fundido"
+              price="17.95"
+              description="Pollo y champiñones cocidos a fuego lento en nuestra salsa roja casera, cubiertos con queso Jack."
+            />
+            <MenuItem
+              name="Momias Camarones"
+              price="18.95"
+              description="Camarones envueltos en tocino, cocinados en nuestra salsa roja casera con cebollas y pimientos morrones, cubiertos con queso Jack."
+            />
+            <MenuItem
+              name="Mar y Tierra"
+              price="22.95"
+              description="Bistec de Nueva York servido con camarones."
+            />
+            <MenuItem
+              name="Molcajete"
+              price="25.95"
+              description="Pollo a la parrilla, carne asada, chorizo, camarones, queso Oaxaca y cebollas y jalapeños asados."
+            />
+            <img
+              src={pineappleImage}
+              alt="pinapple fajitas dish"
+              class="hidden md:block scale-75 ml-8 -mt-16 -z-10"
+            />
           </div>
         </div>
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtonsEs previousPageNum="2" nextPageNum="1" />
+    <MenuNavButtonsEn previousPageNum="3" nextPageNum="5" />
   </div>
 </div>
