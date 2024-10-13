@@ -33,10 +33,6 @@
   font-style: normal;
 }
 
-.toggleLanguage:checked ~ .english{
-  display: none;
-}
-
 .small-caps {
   font-variant: small-caps;
 }
