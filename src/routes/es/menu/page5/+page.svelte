@@ -19,34 +19,34 @@
       <div class="grid">
         <!-- Appetizers Section -->
         <div class="mb-6 text-center">
-          <MenuSectionHeader category="Appetizers" />
+          <MenuSectionHeader category="Aperitivos" />
           <div class="grid md:grid-cols-2 text-center md:text-left">
             <div>
-              <MenuItem name="Mozzarella Sticks" price="9.99" />
+              <MenuItem name="Palitos de mozzarella" price="9.99" />
               <MenuItem
-                name="Chicken Strips"
+                name="Tiras de pollo"
                 price="11.99"
-                description="Three pieces served with French fries"
+                description="Tres piezas servidas con papas fritas."
               />
-              <MenuItem name="Jalapeño Poppers" price="9.99" />
+              <MenuItem name="Jalapeños Poppers" price="9.99" />
               <MenuItem
                 name="Guacamole"
-                description="Small 4.00 / Large 7.00"
+                description="Pequeño 4.00 / Grande 7.00"
               />
               <div class="max-w-96 mx-auto md:mx-0">
                 <MenuItem
-                  name="Express Sampler Platter"
+                  name="Bandeja de muestra Express"
                   price="15.99"
-                  description="4 mozzarella sticks, 4 jalapeño poppers, 2 chicken strips, and 4 onion rings."
+                  description="4 palitos de mozzarella, 4 chiles jalapeños poppers, 2 tiras de pollo y 4 aros de cebolla."
                 />
               </div>
-              <MenuItem name="Pot Stickers" price="11.99" />
+              <MenuItem name="Pegatinas de olla" price="11.99" />
               <MenuItem
-                name="Egg Rolls"
+                name="Rollos de huevo"
                 price="4.95"
-                description="Chicken or Vegetable"
+                description="Pollo o Verduras"
               />
-              <MenuItem name="Onion Rings" price="8.50" />
+              <MenuItem name="Aros de cebolla" price="8.50" />
             </div>
             <div>
               <img
@@ -55,11 +55,11 @@
                 class="hidden md:block -mt-6 ml-8 -z-10 max-w-96"
               />
               <MenuItem
-                name="Mexican Sampler Platter"
+                name="Plato degustación mexicano"
                 price="15.99"
-                description="Taquitos, Nachos, Jalapeño poppers, and 1/2 Quesadilla."
+                description="Taquitos, Nachos, Jalapeño poppers, y 1/2 Quesadilla."
               />
-              <MenuItem name="French Fries or Curly Fries" price="7.00" />
+              <MenuItem name="Papas fritas o papas fritas rizadas" price="7.00" />
             </div>
           </div>
         </div>
@@ -67,17 +67,17 @@
 
       <!-- Beverages Section -->
       <div class="mb-6 text-center">
-        <MenuSectionHeader category="Beverages" />
+        <MenuSectionHeader category="Bebidas" />
         <div class="grid grid-cols-1 md:grid-cols-3 gap-1">
           <div>
-            <MenuItem name="Coffee" price="3.00" />
-            <MenuItem name="Hot Tea" price="3.00" />
-            <MenuItem name="Hot Chocolate" price="4.00" />
+            <MenuItem name="Café" price="3.00" />
+            <MenuItem name="Té caliente" price="3.00" />
+            <MenuItem name="Chocolate caliente" price="4.00" />
             <div class="mx-4">
-              <h4 class="text-[#7f1d1d] font-semibold text-xl">Iced Tea</h4>
+              <h4 class="text-[#7f1d1d] font-semibold text-xl">Té helado</h4>
               <p class="">
-                Unsweetened 3.00 <br />
-                Peach, Mango, or Raspberry 5.00 <br />
+                Sin azúcar 3.00 <br />
+                Melocotón, mango o frambuesa 5.00 <br />
                 Arnold Palmer 4.50
               </p>
             </div>
@@ -85,8 +85,8 @@
               <h4 class="text-[#7f1d1d] font-semibold text-xl">
                 Horchata 3.50
               </h4>
-              <p class="">Mexican drink made of rice and cinnamon.</p>
-              <p class="text-[#7f1d1d] font-semibold">*No refills.</p>
+              <p class="">Bebida mexicana hecha a base de arroz y canela.</p>
+              <p class="text-[#7f1d1d] font-semibold">*No se vuelve a servir.</p>
             </div>
           </div>
           <img
@@ -95,20 +95,19 @@
             class="hidden place-self-center md:block max-w-52 -mt-2 -z-10"
           />
           <div>
-            <MenuItem name="Milk" description="Small 2.00 / Large 3.50" />
-            <MenuItem name="Juice" description="Small 2.00 / Large 4.00" />
+            <MenuItem name="Leche" description="Pequeño 2.00 / Grande 3.50" />
+            <MenuItem name="Jugo" description="Pequeño 2.00 / Grande 4.00" />
             <MenuItem
-              name="Chocolate Milk"
-              description="Small 3.00 / Large 4.50"
+              name="Leche con chocolate"
+              description="Pequeño 3.00 / Grande 4.50"
             />
             <div class="mx-4">
-              <h4 class="text-[#7f1d1d] font-semibold text-xl">Soda 3.50</h4>
+              <h4 class="text-[#7f1d1d] font-semibold text-xl">Refresco 3.50</h4>
               <p class="">
-                Coca cola, Sprite, Root Beer, Dr. Pepper, Diet Coke, and
-                lemonade
+                Coca-Cola, Sprite, cerveza de raíz, Dr. Pepper, Coca-Cola Light y limonada
               </p>
               <p class="text-[#7f1d1d] font-semibold">
-                *One free refill; additional refills 1.00.
+                *Una recarga gratis; recargas adicionales 1.00.
               </p>
             </div>
           </div>
@@ -117,13 +116,13 @@
 
       <!-- Beer & Wine Section -->
       <div class="mb-6 text-center">
-        <MenuSectionHeader category="Beer & Wine" />
+        <MenuSectionHeader category="Cerveza y Vino" />
         <div class="grid md:grid-cols-3 gap-1 text-center md:text-left">
           <div class="grid md:grid-cols-2 space-y-4">
             <div class="w-96">
               <div class="mx-4">
                 <h4 class="text-[#7f1d1d] font-semibold text-xl">
-                  Domestic Beer 6.00
+                  Cerveza nacional 6.00
                 </h4>
                 <p class="">
                   Sierra Nevada Pale Ale <br />
@@ -135,11 +134,11 @@
               </div>
               <div class="mx-4">
                 <h4 class="text-[#7f1d1d] font-semibold text-xl">
-                  Domestic Beer 6.00
+                  Cerveza importada 6.00
                 </h4>
                 <p class="">
                   Negra Modelo <br />
-                  Modelo Special <br />
+                  Modelo Especial <br />
                   Pacifico <br />
                   Corona <br />
                   Dos Equis XX <br />
@@ -159,7 +158,7 @@
             <div class="text-center space-y-4">
               <div class="mx-4">
                 <h4 class="text-[#7f1d1d] font-semibold text-xl">
-                  Whites 7.00
+                  Blancos 7.00
                 </h4>
                 <p class="">
                   White Zinfandel <br />
@@ -169,12 +168,12 @@
               </div>
               <div class="mx-4">
                 <h4 class="text-[#7f1d1d] font-semibold text-xl z-1">
-                  Reds 7.00
+                  Rojos 7.00
                 </h4>
                 <p class="">
                   Merlot <br />
                   Zinfandel <br />
-                  Sangria <br />
+                  Sangría <br />
                   Cabernet Sauvignon <br />
                   Pinot Noir
                 </p>
@@ -193,13 +192,13 @@
               <MenuItem
                 name="Margaritas"
                 price="9.95"
-                description="Strawberry or Lime"
+                description="Fresa o lima"
               />
-              <MenuItem name="Mimosa" description="Small 7.95 / Large 13.00" />
+              <MenuItem name="Mimosa" description="Pequeño 7.95 / Grande 13.00" />
               <MenuItem
                 name="Michelada"
                 price="9.95"
-                description="Your choice of beer"
+                description="Tu elección de cerveza"
               />
             </div>
             <div class="w-20">
@@ -215,43 +214,43 @@
       <div class="grid md:grid-cols-2 font-medium">
         <!-- Extra Sides Section -->
         <div class="mb-6 text-center">
-          <MenuSectionHeader category="Extra Sides" />
+          <MenuSectionHeader category="Lados adicionales" />
           <div class="grid md:grid-cols-2 text-left mt-6 px-6">
-            <MenuExtras name="4 Bacon or 4 Sausage Links" price="5.50" />
-            <MenuExtras name="Hamburger Patty" price="6.00" />
-            <MenuExtras name="2 Suasage Patties or Ham" price="5.50" />
-            <MenuExtras name="1 Egg" price="2.75" />
-            <MenuExtras name="Toast, Biscuit, or English Muffin" price="3.00" />
-            <MenuExtras name="Bagel & Cream Cheese" price="5.50" />
-            <MenuExtras name="Home Fries or Hash Browns" price="6.00" />
-            <MenuExtras name="Cup of Fruit" price="6.25" />
-            <MenuExtras name="Cup of Chili" price="5.99" />
-            <MenuExtras name="Cup of Soup" price="5.50" />
-            <MenuExtras name="Dinner Salad" price="5.50" />
-            <MenuExtras name="Cup of Country Gravy" price="3.00" />
-            <MenuExtras name="Salad Dressing" price="1.50" />
-            <MenuExtras name="Side of Sour Cream" price="1.50" />
+            <MenuExtras name="4 salchichas o 4 tocino" price="5.50" />
+            <MenuExtras name="Hamburguesa" price="6.00" />
+            <MenuExtras name="2 hamburguesas de salchicha o jamón" price="5.50" />
+            <MenuExtras name="1 huevo" price="2.75" />
+            <MenuExtras name="Tostada, galleta o panecillo inglés" price="3.00" />
+            <MenuExtras name="Bagel y queso crema" price="5.50" />
+            <MenuExtras name="Papas fritas caseras o papas fritas" price="6.00" />
+            <MenuExtras name="Taza de fruta" price="6.25" />
+            <MenuExtras name="Taza de chile" price="5.99" />
+            <MenuExtras name="Taza de sopa" price="5.50" />
+            <MenuExtras name="Ensalada para la cena" price="5.50" />
+            <MenuExtras name="Taza de salsa campestre" price="3.00" />
+            <MenuExtras name="Vinagreta" price="1.50" />
+            <MenuExtras name="Lado de crema agria" price="1.50" />
           </div>
         </div>
         <!-- A La Carte Mexican Section -->
         <div class="mb-6 text-center">
-          <MenuSectionHeader category="A La Carte Mexican" categoryDescription="Your meat options: Chicken, ground beef, or shredded beef"/>
+          <MenuSectionHeader category="Comida mexicana a la carta" categoryDescription="Sus opciones de carne: pollo, carne molida o carne desmenuzada."/>
           <div class="grid grid-cols-2 text-left px-6">
             <MenuExtras name="Enchilada" price="6.50" />
-            <MenuExtras name="Regular Taco" price="5.00" />
-            <MenuExtras name="Tamal*" price="7.50" />
+            <MenuExtras name="Taco regular" price="5.00" />
+            <MenuExtras name="Tamal" price="7.50" />
             <MenuExtras name="Quesadilla" price="10.99" />
             <MenuExtras name="Sope" price="6.50" />
             <MenuExtras name="Chile Relleno" price="8.50" />
             <MenuExtras name="Chimichanga" price="10.99" />
-            <MenuExtras name="Three Taquitos" price="10.99" />
-            <MenuExtras name="Rice and Beans" price="6.00" />
-            <MenuExtras name="Tortillas Corn / Flour" price="1.50" />
-            <MenuExtras name="Grilled Jalapeño" price="1.00" />
-            <MenuExtras name="Side of Avacado" price="2.50" />
+            <MenuExtras name="Tres Taquitos" price="10.99" />
+            <MenuExtras name="Arroz y frijoles" price="6.00" />
+            <MenuExtras name="Tortillas de Maíz / Harina" price="1.50" />
+            <MenuExtras name="Jalapeño a la parrilla" price="1.00" />
+            <MenuExtras name="Lado del Aguacate" price="2.50" />
             <MenuExtras name="Pico de Gallo" price="1.75" />
-            <MenuExtras name="Salsa (chipotle, habanero, or tomatillo" price="1.75" />
-            <MenuExtras name="Specialty Tacos (Carne asada, carnitas, chili verde, fish, or shrimp" price="6.00" />
+            <MenuExtras name="Salsa (chipotle, habanero o tomatillo)" price="1.75" />
+            <MenuExtras name="Tacos especiales (carne asada, carnitas, chile verde, pescado o camarones)" price="6.00" />
           </div>
         </div>
       </div>

@@ -12,10 +12,6 @@
   import mimosaImage from '$lib/assets/img/mimosa.png'
 </script>
 
-<div class="grid grid-cols-1 place-items-center mt-10 mb-5 w-full">
-  <h2 class="text-6xl title-text">Our Menu</h2>
-</div>
-
 <div class="carousel w-full mb-20">
   <!-- Menu Page Five -->
   <div class="carousel-item relative w-full">
@@ -243,7 +239,7 @@
           <div class="grid grid-cols-2 text-left px-6">
             <MenuExtras name="Enchilada" price="6.50" />
             <MenuExtras name="Regular Taco" price="5.00" />
-            <MenuExtras name="Tamal*" price="7.50" />
+            <MenuExtras name="Tamale" price="7.50" />
             <MenuExtras name="Quesadilla" price="10.99" />
             <MenuExtras name="Sope" price="6.50" />
             <MenuExtras name="Chile Relleno" price="8.50" />

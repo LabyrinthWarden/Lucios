@@ -15,87 +15,87 @@
       <!-- Sandwiches Section -->
       <div class="mb-6 text-center">
         <MenuSectionHeader
-          category="Sandwiches"
-          categoryDescription="Served with coleslaw, salad, fresh cut fries, or curly fries."
+          category="Sándwiches"
+          categoryDescription="Servidos con ensalada de col, ensalada, papas fritas cortadas frescas o papas fritas rizadas."
         />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-1 md:text-left">
           <div>
             <MenuItem
-              name="Grilled Cheese"
+              name="Queso a la Parrilla"
               price="10.95"
-              description="Three pieces of whitew bread with American cheese."
+              description="Tres rebanadas de pan blanco con queso americano."
             />
             <MenuItem
-              name="Grilled Cheese and Tomatoes"
+              name="Queso a la Parrilla con Tomates"
               price="12.95"
-              description="Grilled tomatoes and American cheese on sourdough bread."
+              description="Tomates y queso americano a la parrilla en pan de masa agria."
             />
             <MenuItem
-              name="Grilled Ham and Cheese"
+              name="Jamón y Queso a la Parrilla"
               price="12.95"
-              description="Ham and American cheese on sourdough bread."
+              description="Jamón y queso americano en pan de masa agria."
             />
             <MenuItem
-              name="Chicken Salad Sandwich"
+              name="Sándwich de Ensalada de Pollo"
               price="12.95"
-              description="Chicken salad with lettuce on a French roll."
+              description="Ensalada de pollo con lechuga en un pan francés."
             />
             <MenuItem
-              name="Tuna Salad Sandwich"
+              name="Sándwich de Ensalada de Atún"
               price="12.95"
-              description="Tuna salad with lettuce on white toast."
+              description="Ensalada de atún con lechuga en pan blanco tostado."
             />
             <MenuItem
-              name="Grilled Club"
+              name="Club a la Parrilla"
               price="15.95"
-              description="Ham, roast beef, roasted turkey, bacon, tomatoes, and American cheese on grilled sourdough bread."
+              description="Jamón, roast beef, pavo asado, tocino, tomates y queso americano en pan de masa agria a la parrilla."
             />
             <MenuItem
-              name="Triple Decker Club"
+              name="Club de Tres Capas"
               price="15.95"
-              description="Ham, roasted turkey, bacon, and American cheese toasted white bread."
+              description="Jamón, pavo asado, tocino y queso americano en pan blanco tostado."
             />
             <MenuItem
               name="BLT"
               price="13.95"
-              description="Bacon, lettuce, and tomatoes on white bread."
+              description="Tocino, lechuga y tomates en pan blanco."
             />
           </div>
           <div>
             <MenuItem
               name="Monte Cristo"
               price="14.95"
-              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
+              description="Jamón, queso suizo, tocino y tomates en tostada francesa de Texas."
             />
             <MenuItem
               name="Philly Cheese Steak"
               price="15.95"
-              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
+              description="Rebanadas de roast beef, queso suizo, cebolla y pimiento a la parrilla en un pan francés."
             />
             <MenuItem
-              name="New York Steak"
+              name="Bistec de Nueva York"
               price="20.95"
-              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
+              description="Bistec de Nueva York con cebolla, lechuga y tomates a la parrilla en un pan de bistec."
             />
             <MenuItem
-              name="Tuna Melt"
+              name="Fundido de Atún"
               price="13.95"
-              description="Tuna salad with American cheese on grilled sourdough."
+              description="Ensalada de atún con queso americano en pan de masa agria a la parrilla."
             />
             <MenuItem
-              name="Patty Melt"
+              name="Fundido de Hamburguesa"
               price="15.95"
-              description="All beef patty, American cheese, and grilled onions on grilled rye."
+              description="Hamburguesa de res, queso americano y cebolla a la parrilla en pan de centeno a la parrilla."
             />
             <MenuItem
               name="Bagel"
               price="14.95"
-              description="An everything bagel with one egg any style, American cheese, tomatoes, and onions. Choice of sausage patty, ham, or bacon."
+              description="Un bagel de todo con un huevo al gusto, queso americano, tomates y cebollas. A elección de salchicha, jamón o tocino."
             />
             <MenuItem
-              name="Turkey Melt"
+              name="Fundido de Pavo "
               price="14.95"
-              description="Turkey, grilled onions, and tomatoes with Jack cheese and avacadoes on grilled rye bread."
+              description="Pavo, cebolla y tomates a la parrilla con queso Jack y aguacates en pan de centeno a la parrilla."
             />
           </div>
         </div>
@@ -104,59 +104,59 @@
       <!-- Burgers Section -->
       <div class="mb-6 text-center">
         <MenuSectionHeader
-          category="Burgers"
-          categoryDescription="1/3 lb. all beef patty served with salad, fresh cut fries, or curly fries."
+          category="Hamburguesas"
+          categoryDescription="Hamburguesa de 1/3 lb. de pura carne de res servida con ensalada, papas fritas recién cortadas o papas fritas rizadas."
         />
         <div class="grid grid-cols-1 md:grid-cols-3 gap-1 md:text-left">
           <div>
-            <MenuItem name="Bacon Cheeseburger" price="15.95" />
+            <MenuItem name="Hamburguesa con queso y tocino" price="15.95" />
             <MenuItem
-              name="Double Cheeseburger"
+              name="Hamburguesa doble con queso"
               price="19.99"
-              description="Add bacon 2.00"
+              description="Añadir tocino 2.00"
             />
             <MenuItem
-              name="Hamburger"
+              name="Hamburguesa"
               price="12.95"
-              description="Add cheese 1.00"
+              description="Añadir queso 1.00"
             />
-            <MenuItem name="Teriyaki Burger" price="15.95" />
+            <MenuItem name="Hamburguesa teriyaki" price="15.95" />
             <MenuItem
-              name="Chili Burger"
+              name="Hamburguesa con chile"
               price="15.95"
-              description="Homemade chili topped with cheddar cheese and onions."
+              description="Chile casero cubierto con queso cheddar y cebollas."
             />
             <MenuItem
-              name="Teriyaki Chicken Burger"
+              name="Hamburguesa de pollo teriyaki"
               price="14.95"
-              description="Chicken breast topped with grilled onions and mushrooms."
+              description="Pechuga de pollo cubierta con cebollas y champiñones a la parrilla."
             />
           </div>
           <img
             src={hamburgerImage}
-            alt="Burger and fries"
+            alt="Hamburguesa con papas fritas"
             class="hidden md:block mt-8 -ml-6 -z-10 scale-125"
           />
           <div>
             <MenuItem
-              name="Western Burger"
+              name="Hamburguesa occidental"
               price="16.95"
-              description="Pepper Jack cheese, bacon, and BBQ sauce, topped with an onion ring."
+              description="Queso Pepper Jack, tocino y salsa barbacoa, cubierto con una rodaja de cebolla."
             />
             <MenuItem
-              name="Fish Burger"
+              name="Hamburguesa de pescado"
               price="14.95"
-              description="Fried tilapia topped with lettuce, tomatoes, and onions."
+              description="Tilapia frita cubierta con lechuga, tomates y cebollas."
             />
             <MenuItem
-              name="Stuffed Burger"
+              name="Hamburguesa Rellena"
               price="16.95"
-              description="Stuffed with bacon, mushrooms, and Swiss cheese."
+              description="Relleno de tocino, champiñones y queso suizo."
             />
             <MenuItem
-              name="Pulled Pork Burger"
+              name="Hamburguesa de cerdo desmenuzado"
               price="14.95"
-              description="BBQ pulled pork topped with onions rings and coleslaw."
+              description="Cerdo desmenuzado a la barbacoa cubierto con aros de cebolla y ensalada de col."
             />
           </div>
         </div>
@@ -165,23 +165,23 @@
         >
           <div class="font-bold text-center col-span-full">
             <MenuSectionHeader
-              categoryDescription="Served with steamed vegetables and your choice of mashed potatoes, fresh cut fries, or curly fries."
+              categoryDescription="Servido con verduras al vapor y su elección de puré de papas, papas fritas recién cortadas o papas fritas rizadas."
             />
           </div>
           <MenuItem
-            name="French Dip"
+            name="Salsa francesa"
             price="14.95"
-            description="Sliced roast beef in a french roll."
+            description="Carne de res asada cortada en rodajas en un pan francés."
           />
           <MenuItem
-            name="Hot Roast Beef"
+            name="Carne asada caliente"
             price="15.95"
-            description="Sliced roast beef served open-faced on white bread topped with brown gravy."
+            description="Carne de res asada cortada en rodajas servida abierta sobre pan blanco cubierta con salsa marrón."
           />
           <MenuItem
-            name="Hot Turkey"
+            name="Pavo picante"
             price="15.95"
-            description="Sliced turkey served open-faced on white bread topped with turkey gravy"
+            description="Pavo en rodajas servido abierto sobre pan blanco cubierto con salsa de pavo."
           />
         </div>
       </div>
@@ -189,58 +189,57 @@
       <!-- Salads Section -->
       <div class="mb-6 text-center">
         <MenuSectionHeader
-          category="Salads"
-          categoryDescription="Served with garlic toast and your choice of dressing."
+          category="Ensaladas"
+          categoryDescription="Servido con tostadas de ajo y aderezo de su elección."
         />
         <div class="grid md:grid-cols-2 gap-1 text-center md:text-left">
           <div>
             <MenuItem
-              name="Grilled Cheese"
-              price="10.95"
-              description="Three pieces of whitew bread with American cheese."
+              name="Ensalada de pollo a la parrilla"
+              price="15.99"
+              description="Queso, tomates, pepino y un huevo en rodajas."
             />
             <MenuItem
-              name="Grilled Cheese and Tomatoes"
-              price="12.95"
-              description="Grilled tomatoes and American cheese on sourdough bread."
+              name="Ensalada Cobb"
+              price="15.99"
+              description="Tomates a la parrilla y queso americano sobre pan de masa madre."
             />
             <img
               src={saladImage}
-              alt="a cobb salad"
+              alt="a fiesta salad"
               class="hidden md:block scale-75 -ml-10 -mt-8 -z-10"
             />
           </div>
           <div>
             <MenuItem
-              name="Monte Cristo"
-              price="14.95"
-              description="Ham, Swiss cheese, bacon, and tomatoes on Texas French Toast."
+              name="Ensalada del chef"
+              price="15.99"
+              description="Pavo, jamón, carne asada, queso, tomates, pepino y huevo en rodajas."
             />
             <MenuItem
-              name="Philly Cheese Steak"
-              price="15.95"
-              description="Slices of roast beef, Swiss cheese, grilled onions, and bell peppers on a French roll"
+              name="Ensalada César"
+              price="15.99"
+              description="Pollo a la parrilla, lechuga romana, crutones y un huevo en rodajas."
             />
             <MenuItem
-              name="New York Steak"
-              price="20.95"
-              description="New York Steak with grilled onions, lettuce, and tomatoes on a steak roll."
+              name="Ensalada cajún"
+              price="15.99"
+              description="Pollo crujiente, aceitunas, tomates, pepinos y un huevo en rodajas."
             />
             <MenuItem
-              name="Tuna Melt"
-              price="13.95"
-              description="Tuna salad with American cheese on grilled sourdough."
+              name="Ensalada Fiesta"
+              price="15.99"
+              description="Opción de pollo o bistec, frijoles negros, garbanzos, pimientos morrones y chips de tortilla."
             />
             <MenuItem
-              name="Patty Melt"
-              price="15.95"
-              description="All beef patty, American cheese, and grilled onions on grilled rye."
+              name="Ensalada de camarones"
+              price="16.50"
+              description="Camarones cocidos con champiñones y cebollas, servidos con queso, tomates, pepino y un huevo en rodajas."
             />
             <!-- Footnote -->
             <div class="mt-12 max-w-96">
               <p class="font-semibold text-error">
-                Starting at 11 AM, first basket of chips and salsa per table are
-                free. EXTRA basket of chips & salsa 3.00
+                Aderezo extra 3.00
               </p>
             </div>
           </div>

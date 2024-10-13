@@ -143,7 +143,7 @@
       <!-- Skillets Section -->
       <div class="mb-6 text-center">
         <MenuSectionHeader
-          category="Skillets"
+          category="Sartenes"
           categoryDescription="Con queso de su elección. Servido con media ración de galletas y salsa."
         />
         <div class="grid grid-cols-1 md:grid-cols-2 gap-1 text-center">

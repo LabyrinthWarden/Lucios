@@ -9,10 +9,6 @@
   import pineappleImage from '$lib/assets/img/pineapple.png'
 </script>
 
-<div class="grid grid-cols-1 place-items-center mt-10 mb-5 w-full">
-  <h2 class="text-6xl title-text">Our Menu</h2>
-</div>
-
 <div class="carousel w-full mb-20">
   <!-- Menu Page Four -->
   <div class="carousel-item relative w-full">
@@ -57,7 +53,7 @@
               categoryDescription="Served with steamed vegetables, mashed potatoes, garlic toast, and soup or salad."
             />
           </div>
-          <div>
+          <div class="md:text-left">
             <MenuItem
               name="Chicken Fried Steak"
               price="20.95"
@@ -109,7 +105,7 @@
           </div>
           <img
             src={burritoImage}
-            alt="a burrito"
+            alt="a burrito covered with red sauce and cheese, topped with sour cream and guacamole"
             class="hidden md:block mt-8 -ml-6 -z-10 scale-125"
           />
           <div>
