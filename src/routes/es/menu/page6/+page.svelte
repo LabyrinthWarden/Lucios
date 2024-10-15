@@ -2,7 +2,7 @@
   /** @type {import('./$types').PageData} */
   import MenuItem from '$lib/components/MenuItem.svelte'
   import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
-  import MenuNavButtonsEn from '$lib/components/MenuNavButtonsEn.svelte'
+  import MenuNavButtonsEs from '$lib/components/MenuNavButtonsEs.svelte'
 
   import xangosImage from '$lib/assets/img/xangos.png'
   import churrosImage from '$lib/assets/img/churros.png'
@@ -21,7 +21,7 @@
       <div class="grid">
         <!-- Desserts Section -->
         <div class="mb-6 text-center">
-          <MenuSectionHeader category="Desserts Menu" />
+          <MenuSectionHeader category="Menú de Postres" />
           <div class="grid gap-6 md:grid-cols-2 text-center md:text-left">
             <div class="grid text-center">
               <MenuItem name="Xangos" price="10.95"/>
@@ -48,7 +48,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Milkshake" price="8.95"/>
+              <MenuItem name="Batido de leche" price="8.95"/>
               <img
                 src={milkshakeImage}
                 alt=""
@@ -56,7 +56,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Peanut Butter Chocolate Cake" price="10.95"/>
+              <MenuItem name="Pastel de chocolate y mantequilla de maní" price="10.95"/>
               <img
                 src={pbChocolateCakeImage}
                 alt=""
@@ -64,7 +64,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Chocolate Chip Cookie and Milk Cake" price="10.95"/>
+              <MenuItem name="Pastel de leche y galletas con chispas de chocolate" price="10.95"/>
               <img
                 src={chocolateChipMilkImage}
                 alt=""
@@ -72,7 +72,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Lemon Raspberry Cheesecake" price="10.95"/>
+              <MenuItem name="Tarta de queso con limón y frambuesa" price="10.95"/>
               <img
                 src={lemonRaspberryCheesecakeImage}
                 alt=""
@@ -80,7 +80,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Spoon Lovin' Chocolate Cake" price="10.95"/>
+              <MenuItem name="Pastel de chocolate Spoon Lovin'" price="10.95"/>
               <img
                 src={chocolateCakeImage}
                 alt=""
@@ -88,25 +88,25 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="MUFFINS" />
+              <MenuItem name="MAGDALENAS" />
               <MenuItem price="4.50" />
               <br>
-              <MenuItem name="Poppy Seed" />
-              <MenuItem name="Blueberry" />
-              <MenuItem name="Double Chocolate" />
-              <MenuItem name="Apple Cinnamon" />
+              <MenuItem name="Semilla de amapola" />
+              <MenuItem name="Arándano" />
+              <MenuItem name="Doble chocolate" />
+              <MenuItem name="Manzana y canela" />
             </div>
             <div class="grid text-center">
-              <MenuItem name="ICE CREAM" />
-              <MenuItem name="Vanilla or Chocolate" />
-              <MenuItem name="1 Scoop" price="2.00"/>
-              <MenuItem name="2 Scoops" price="4.00"/>
+              <MenuItem name="HELADO" />
+              <MenuItem name="Vainilla o chocolate" />
+              <MenuItem name="1 cucharada" price="2.00"/>
+              <MenuItem name="2 cucharadas" price="4.00"/>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtonsEn previousPageNum="5" nextPageNum="1" />
+    <MenuNavButtonsEs previousPageNum="5" nextPageNum="1" />
   </div>
 </div>
