@@ -131,3 +131,6 @@ dist
 
 #sveltekit files
 .svelte-kit/
+
+#database
+db/
