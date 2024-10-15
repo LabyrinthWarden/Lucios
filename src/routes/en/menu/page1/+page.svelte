@@ -6,10 +6,6 @@
   import pancakeImage from '$lib/assets/img/pancakes.png'
 </script>
 
-<div class="grid grid-cols-1 place-items-center mt-10 mb-5 w-full">
-  <h2 class="text-6xl title-text">Our Menu</h2>
-</div>
-
 <div class="carousel w-full mb-20">
   <!-- Menu Page One -->
   <div class="carousel-item relative w-full">
@@ -184,9 +180,7 @@
         </div>
       </div>
       <!-- B&G, Waffles and Pancakes Section -->
-      <div
-        class="grid md:grid-cols-3 mb-6 text-center md:text-left md:ml-6"
-      >
+      <div class="grid md:grid-cols-3 mb-6 text-center md:text-left md:ml-6">
         <div class="">
           <MenuSectionHeader category="Homemade Biscuits & Gravy" />
           <div class="mb-3">
