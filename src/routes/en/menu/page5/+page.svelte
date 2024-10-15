@@ -21,7 +21,7 @@
         <div class="mb-6 text-center">
           <MenuSectionHeader category="Appetizers" />
           <div class="grid md:grid-cols-2 text-center md:text-left">
-            <div>
+            <div class="md:pl-6">
               <MenuItem name="Mozzarella Sticks" price="9.99" />
               <MenuItem
                 name="Chicken Strips"
@@ -257,6 +257,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtonsEn previousPageNum="4" nextPageNum="1" />
+    <MenuNavButtonsEn previousPageNum="6" nextPageNum="1" />
   </div>
 </div>
