@@ -4,6 +4,7 @@
 
   import { page } from '$app/stores'
   $: urlAfterLang = $page.url.pathname.slice(4)
+  export let data
 </script>
 
 <!-- Title Bar -->
@@ -128,4 +129,13 @@
     </p>
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
+  {#if !data.user}
+    <div class="">
+      <a href="/login" class="btn btn-info btn-xs">Login</a>
+    </div>
+  {:else}
+    <form action="/logout" method="POST">
+      <button type="submit" class="w-full text-start btn btn-warning btn-xs">Logout</button>
+    </form>
+  {/if}
 </footer>

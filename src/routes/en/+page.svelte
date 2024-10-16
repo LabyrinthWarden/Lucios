@@ -1,5 +1,7 @@
 <script>
   import heroImage from '$lib/assets/img/hero.jpg'
+  import MenuSectionHeader from '$lib/components/MenuSectionHeader.svelte'
+  import MenuItem from '$lib/components/MenuItem.svelte'
   import { toast } from '@zerodevx/svelte-toast'
   import { onMount } from 'svelte'
 
@@ -13,6 +15,7 @@
     )
   })
 
+  export let data
 </script>
 
 <div class="hero min-h-screen" style="background-image: url({heroImage});">
@@ -30,4 +33,17 @@
       >
     </div>
   </div>
+</div>
+
+<div class="grid text-center my-6">
+  <MenuSectionHeader category="Today's Specials" />
+  {#each data.specials as special}
+    <div class="my-2">
+      <MenuItem
+        name={special.nameEn}
+        price={special.price}
+        description={special.descriptionEn}
+      />
+    </div>
+  {/each}
 </div>

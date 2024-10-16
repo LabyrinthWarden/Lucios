@@ -133,4 +133,4 @@ dist
 .svelte-kit/
 
 #database
-db/
+db/pb_data/
