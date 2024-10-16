@@ -13,7 +13,7 @@
       <!-- Omelettes Section -->
       <div class="mb-6 text-center">
         <MenuSectionHeader
-          category="Tortillas De Tres Huevos"
+          category="Omelettes De Tres Huevos"
           categoryDescription="Servido con papas fritas o papas fritas caseras y una opción de tostadas o panqueques."
         />
         <div class="grid md:grid-cols-2 gap-1">
