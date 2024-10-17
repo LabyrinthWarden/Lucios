@@ -266,6 +266,6 @@
       </div>
     </div>
     <!-- Navigation Buttons -->
-    <MenuNavButtonsEs previousPageNum="5" nextPageNum="2" />
+    <MenuNavButtonsEs previousPageNum="6" nextPageNum="2" />
   </div>
 </div>
