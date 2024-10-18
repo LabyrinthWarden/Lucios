@@ -250,8 +250,8 @@
             <MenuExtras name="Grilled Jalapeño" price="1.00" />
             <MenuExtras name="Side of Avacado" price="2.50" />
             <MenuExtras name="Pico de Gallo" price="1.75" />
-            <MenuExtras name="Salsa (chipotle, habanero, or tomatillo" price="1.75" />
-            <MenuExtras name="Specialty Tacos (Carne asada, carnitas, chili verde, fish, or shrimp" price="6.00" />
+            <MenuExtras name="Salsa (chipotle, habanero, or tomatillo)" price="1.75" />
+            <MenuExtras name="Specialty Tacos (Carne asada, carnitas, chili verde, fish, or shrimp)" price="6.00" />
           </div>
         </div>
       </div>
