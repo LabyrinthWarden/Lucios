@@ -133,4 +133,4 @@ dist
 .svelte-kit/
 
 #database
-db/pb_data/
+#db/pb_data/ remove hashtag when ready to deploy
