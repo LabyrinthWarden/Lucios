@@ -29,7 +29,7 @@
         ><button class="btn btn-success">See Our Menu</button></a
       >
       <p class="mt-5">
-        Estamos abiertos de martes a sábado de 8 am a 9 pm, y los domingos de 8 am a 5 pm.
+        We're open Tuesday through Saturday from 8 am to 9 pm, and Sundays from 8 am to 5 pm.
       </p>
     </div>
   </div>
