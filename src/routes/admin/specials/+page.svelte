@@ -1,25 +1,30 @@
 <script>
-    import { supabase } from '$lib/supabaseClient'
+  import { supabase } from '$lib/supabaseClient'
   /** @type {import('./$types').PageData} */
   export let data
+  $: data.specials.active
 
   // Function to toggle the 'active' status
   async function toggleActive(id, currentStatus) {
-    const { error } = await supabase
-      .from('specials')
-      .update({ active: !currentStatus }) 
-      .eq('id', id); 
+    try {
+      const { error } = await supabase
+        .from('specials')
+        .update({ active: !currentStatus })
+        .eq('id', id)
 
-    if (error) {
-      console.error('Error updating special:', error);
-      console.log(id, currentStatus)
+      if (error) {
+        console.error('Error updating special:', error)
+        // Consider showing a user-friendly error message (e.g., with a toast notification)
+        throw error // Re-throw the error to potentially handle it elsewhere
+      }
+    } catch (error) {
+      console.error('Error in toggleActive:', error)
     }
   }
 </script>
 
 <div class="grid max-w-screen">
-  <form action="?/updateActives">
-    <table class="table">
+    <table class="table table-auto">
       <thead
         ><tr
           ><th> Active </th>
@@ -47,10 +52,8 @@
             <td>{special.descriptionEn}</td>
             <td>{special.descriptionEs}</td>
             <td>{special.category}</td>
-            </tr
-          >
+          </tr>
         {/each}
       </tbody>
     </table>
-  </form>
 </div>
