@@ -1,4 +1,5 @@
 <script>
+    import { supabase } from '$lib/supabaseClient'
   /** @type {import('./$types').PageData} */
   export let data
 
