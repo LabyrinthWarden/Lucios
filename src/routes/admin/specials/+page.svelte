@@ -6,17 +6,13 @@
   // Function to toggle the 'active' status
   async function toggleActive(id, currentStatus) {
     const { error } = await supabase
-      .from('Specials')
+      .from('specials')
       .update({ active: !currentStatus }) 
       .eq('id', id); 
 
     if (error) {
       console.error('Error updating special:', error);
-    } else {
-      // Update the 'active' status in the local 'specials' array
-      specials = specials.map(special => 
-        special.id === id ? { ...special, active: !currentStatus } : special
-      );
+      console.log(id, currentStatus)
     }
   }
 </script>
