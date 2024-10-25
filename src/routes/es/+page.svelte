@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "El nuevo sitio web de Lucio está en construcción. Vuelva a visitarnos pronto para ver las actualizaciones.",
+      "Lucio's estará cerrado desde el jueves 31 de octubre hasta el lunes 4 de noviembre. Reanudaremos el horario de atención normal a partir del martes 5 de noviembre.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
@@ -23,7 +23,7 @@
       <p class="mb-5">
         Somos una pequeña empresa familiar que ofrece deliciosa comida mexicana,
         china y estadounidense. Servimos desayuno, almuerzo y cena durante todo
-        el día, de martes a domingo.
+        el día.
       </p>
       <a href="/es/menu"
         ><button class="btn btn-success">Vea Nuestro Menú</button></a
