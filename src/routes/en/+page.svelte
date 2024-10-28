@@ -8,18 +8,17 @@
   const message = data.messages.messageEn
 
   onMount(() => {
-    toast.push(
-      message,
-      {
-        // Effectively disables autoclose when `initial`==`next`
-        initial: 0,
-      }
-    )
+    toast.push(message, {
+      // Effectively disables autoclose when `initial`==`next`
+      initial: 0,
+    })
   })
-
 </script>
 
-<div class="hero min-h-[80vh] md:min-h-[70vh]" style="background-image: url({heroImage});">
+<div
+  class="hero min-h-[80vh] md:min-h-[70vh]"
+  style="background-image: url({heroImage});"
+>
   <div class="hero-overlay bg-opacity-60"></div>
   <div class="hero-content text-neutral-content text-center">
     <div class="max-w-md">
@@ -33,15 +32,22 @@
         ><button class="btn btn-success">See Our Menu</button></a
       >
       <p class="mt-5">
-        We're open Tuesday through Saturday from 8 am to 9 pm, and Sundays from 8 am to 5 pm.
+        We're open Tuesday through Saturday from 8 am to 9 pm, and Sundays from
+        8 am to 5 pm.
       </p>
     </div>
   </div>
 </div>
 
-<div class="grid text-center my-6">
-  <MenuSectionHeader category="Today's Specials"/>
-  {#each data.specials as special}
-  <MenuItem name={special.nameEn} price={special.price} description={special.descriptionEn}/>
-  {/each}
-</div>
+{#if data.specials.length > 0}
+  <div class="grid text-center my-6">
+    <MenuSectionHeader category="Today's Specials" />
+    {#each data.specials as special}
+      <MenuItem
+        name={special.nameEn}
+        price={special.price}
+        description={special.descriptionEn}
+      />
+    {/each}
+  </div>
+{/if}
