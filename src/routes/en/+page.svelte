@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's will be closed Thursday, October 31st through Monday, November 4th. We will resume normal operating hours starting on Tuesday, November 5th.",
+      "Lucio's is currently closed due to Lucio having knee replacement surgery.  We don't know when we are going to open quite yet, but we look forward to serving you again.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,

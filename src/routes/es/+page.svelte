@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's estará cerrado desde el jueves 31 de octubre hasta el lunes 4 de noviembre. Reanudaremos el horario de atención normal a partir del martes 5 de noviembre.",
+      "Lucio's está cerrado actualmente debido a que Lucio se sometió a una cirugía de reemplazo de rodilla. Aún no sabemos cuándo abriremos, pero esperamos poder atenderlo nuevamente.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
