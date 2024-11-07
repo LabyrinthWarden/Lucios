@@ -73,7 +73,7 @@
         <li>
           <a href="/menu">Menú</a>
         </li>
-        <li><a href="/about">Sobre Nosotros</a></li>
+        <!-- <li><a href="/about">Sobre Nosotros</a></li> -->
         <li><a href="tel:5302831949">530-283-1949</a></li>
         <li>
           <a href="https://maps.app.goo.gl/3Uh1LhDJCWmfg6Qz7" target="_blank">
@@ -106,7 +106,7 @@
       <li>
         <a href="/es/menu">Menú</a>
       </li>
-      <li><a href="/about">Sobre Nosotros</a></li>
+      <!-- <li><a href="/about">Sobre Nosotros</a></li> -->
     </ul>
   </div>
   <div class="navbar-end hidden md:flex">
