@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's está cerrado actualmente debido a que Lucio se sometió a una cirugía de reemplazo de rodilla. Aún no sabemos cuándo abriremos, pero esperamos poder atenderlo nuevamente.",
+      "¡Lucio's vuelve a su horario de funcionamiento normal a partir del 19 de noviembre!",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
