@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's is back to normal operating hours, starting November 19th!",
+      "Lucio's will be closed Thursday the 28th and Friday the 29th for Thanksgiving.  We will re-open on Saturday the 30th to our normal hours.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,

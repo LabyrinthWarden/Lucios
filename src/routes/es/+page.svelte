@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "¡Lucio's vuelve a su horario de funcionamiento normal a partir del 19 de noviembre!",
+      "Lucio's estará cerrado el jueves 28 y el viernes 29 por el Día de Acción de Gracias. Abriremos nuevamente el sábado 30 en nuestro horario habitual.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
