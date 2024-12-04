@@ -5,14 +5,13 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's will be closed Thursday the 28th and Friday the 29th for Thanksgiving.  We will re-open on Saturday the 30th to our normal hours.",
+      'Our winter hours have begun! Look below to see our updated schedule and plan your next visit.',
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
       }
     )
   })
-
 </script>
 
 <div class="hero min-h-screen" style="background-image: url({heroImage});">
@@ -27,9 +26,12 @@
       <a href="/en/menu"
         ><button class="btn btn-success">See Our Menu</button></a
       >
-      <p class="mt-5">
-        We're open Tuesday through Saturday from 8 am to 9 pm, and Sundays from 8 am to 5 pm.
-      </p>
+      <p class="mt-5">Come on down and see us this winter! We're open:</p>
+      <ul>
+        <li>Tuesday through Saturday: 8am to 8pm</li>
+        <li>Sundays: 8am to 4pm</li>
+        <li>Closed Mondays</li>
+      </ul>
     </div>
   </div>
 </div>

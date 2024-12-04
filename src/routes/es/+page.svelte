@@ -5,11 +5,10 @@
 
   onMount(() => {
     toast.push(
-      "Lucio's estará cerrado el jueves 28 y el viernes 29 por el Día de Acción de Gracias. Abriremos nuevamente el sábado 30 en nuestro horario habitual.",
+      "¡Nuestro horario de invierno ha comenzado! Consulte a continuación nuestro horario actualizado y planifique su próxima visita.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
-
       }
     )
   })
@@ -28,9 +27,12 @@
       <a href="/es/menu"
         ><button class="btn btn-success">Vea Nuestro Menú</button></a
       >
-      <p class="mt-5">
-        Estamos abiertos de martes a sábado de 8 am a 9 pm, y los domingos de 8 am a 5 pm.
-      </p>
+      <p class="mt-5">¡Venga a visitarnos este invierno! Estamos abiertos:</p>
+      <ul>
+        <li>Martes a sábado: 8am a 8pm</li>
+        <li>Domingos: 8am a 4pm</li>
+        <li>Cerrado los lunes</li>
+      </ul>
     </div>
   </div>
 </div>
