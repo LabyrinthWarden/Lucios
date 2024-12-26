@@ -5,8 +5,7 @@
 
   onMount(() => {
     toast.push(
-      // "¡Nuestro horario de invierno ha comenzado! Consulte a continuación nuestro horario actualizado y planifique su próxima visita.",
-      "Estaremos cerrados el martes 24 de diciembre de 2024 y el miércoles 25 de diciembre de 2024 por Navidad. Volveremos a nuestro horario regular de invierno a partir del jueves 26 de diciembre de 2024. ¡Feliz Navidad!",
+      "¡Nuestro horario de invierno ha comenzado! Consulte a continuación nuestro horario actualizado y planifique su próxima visita.",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,

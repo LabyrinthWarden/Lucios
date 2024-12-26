@@ -5,8 +5,7 @@
 
   onMount(() => {
     toast.push(
-      // 'Our winter hours have begun! Look below to see our updated schedule and plan your next visit.',
-      'We will be closed Tuesday, December 24th, 2024 and Wednesday, December 25th, 2024 for Christmas. We will be back to our regular winter hours starting Thursday, December 26th, 2024. Happy Holidays!',
+      'Our winter hours have begun! Look below to see our updated schedule and plan your next visit.',
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
