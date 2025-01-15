@@ -65,10 +65,11 @@
             </div>
             <div class="grid text-center">
               <MenuItem name="Chocolate Chip Cookie and Milk Cake" price="10.95"/>
+              <span class="text-[#7f1d1d] font-semibold text-sm italic">Currently Unavailable</span>
               <img
                 src={chocolateChipMilkImage}
                 alt=""
-                class="max-h-64 place-self-center"
+                class="max-h-64 place-self-center opacity-20"
               />
             </div>
             <div class="grid text-center">
