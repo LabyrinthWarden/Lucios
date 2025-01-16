@@ -12,6 +12,8 @@
   import chocolateChipMilkImage from '$lib/assets/img/chocolate-chip-and-milk-cake.png'
   import lemonRaspberryCheesecakeImage from '$lib/assets/img/lemon-raspberry-cheesecake.png'
   import chocolateCakeImage from '$lib/assets/img/chocolate-cake.png'
+  import tiramisuImage from '$lib/assets/img/tiramisu.png'
+  import tresLechesImage from '$lib/assets/img/tres-leches.png'
 </script>
 
 <div class="carousel w-full mb-20">
@@ -24,7 +26,7 @@
           <MenuSectionHeader category="Menú de Postres" />
           <div class="grid gap-6 md:grid-cols-2 text-center md:text-left">
             <div class="grid text-center">
-              <MenuItem name="Xangos" price="10.95"/>
+              <MenuItem name="Xangos" price="10.95" />
               <img
                 src={xangosImage}
                 alt=""
@@ -32,7 +34,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Churros" price="10.95"/>
+              <MenuItem name="Churros" price="10.95" />
               <img
                 src={churrosImage}
                 alt=""
@@ -40,7 +42,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Banana Split" price="9.95"/>
+              <MenuItem name="Banana Split" price="9.95" />
               <img
                 src={bananaSplitImage}
                 alt=""
@@ -48,7 +50,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Batido de leche" price="8.95"/>
+              <MenuItem name="Batido de leche" price="8.95" />
               <img
                 src={milkshakeImage}
                 alt=""
@@ -56,7 +58,10 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Pastel de chocolate y mantequilla de maní" price="10.95"/>
+              <MenuItem
+                name="Pastel de chocolate y mantequilla de maní"
+                price="10.95"
+              />
               <img
                 src={pbChocolateCakeImage}
                 alt=""
@@ -64,7 +69,10 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Pastel de leche y galletas con chispas de chocolate" price="10.95"/>
+              <MenuItem
+                name="Pastel de leche y galletas con chispas de chocolate"
+                price="10.95"
+              />
               <img
                 src={chocolateChipMilkImage}
                 alt=""
@@ -72,7 +80,10 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Tarta de queso con limón y frambuesa" price="10.95"/>
+              <MenuItem
+                name="Tarta de queso con limón y frambuesa"
+                price="10.95"
+              />
               <img
                 src={lemonRaspberryCheesecakeImage}
                 alt=""
@@ -80,7 +91,7 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Pastel de chocolate Spoon Lovin'" price="10.95"/>
+              <MenuItem name="Pastel de chocolate Spoon Lovin'" price="10.95" />
               <img
                 src={chocolateCakeImage}
                 alt=""
@@ -88,9 +99,25 @@
               />
             </div>
             <div class="grid text-center">
+              <MenuItem name="Tiramisu" price="8.00" />
+              <img
+                src={tiramisuImage}
+                alt=""
+                class="max-h-64 place-self-center"
+              />
+            </div>
+            <div class="grid text-center">
+              <MenuItem name="Tres Leches" price="8.00" />
+              <img
+                src={tresLechesImage}
+                alt=""
+                class="max-h-64 place-self-center"
+              />
+            </div>
+            <div class="grid text-center">
               <MenuItem name="MAGDALENAS" />
               <MenuItem price="4.50" />
-              <br>
+              <br />
               <MenuItem name="Semilla de amapola" />
               <MenuItem name="Arándano" />
               <MenuItem name="Doble chocolate" />
@@ -99,8 +126,8 @@
             <div class="grid text-center">
               <MenuItem name="HELADO" />
               <MenuItem name="Vainilla o chocolate" />
-              <MenuItem name="1 cucharada" price="2.00"/>
-              <MenuItem name="2 cucharadas" price="4.00"/>
+              <MenuItem name="1 cucharada" price="2.00" />
+              <MenuItem name="2 cucharadas" price="4.00" />
             </div>
           </div>
         </div>

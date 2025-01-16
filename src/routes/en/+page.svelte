@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      'Our winter hours have begun! Look below to see our updated schedule and plan your next visit.',
+      'Sweet news! 🎉 Tiramisu and Tres Leches have landed.  Grab a spoon and dig in for only $8! 🥄',
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,

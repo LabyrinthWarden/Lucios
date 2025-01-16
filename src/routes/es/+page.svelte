@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "¡Nuestro horario de invierno ha comenzado! Consulte a continuación nuestro horario actualizado y planifique su próxima visita.",
+      "¡Buenas noticias! 🎉 ¡Llegaron el Tiramisú y Tres Leches!  ¡Agarra una cuchara y a disfrutar por solo $8! 🥄",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
