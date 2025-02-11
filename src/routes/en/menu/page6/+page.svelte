@@ -96,14 +96,6 @@
               />
             </div>
             <div class="grid text-center">
-              <MenuItem name="Tiramisu" price="8.00" />
-              <img
-                src={tiramisuImage}
-                alt=""
-                class="max-h-64 place-self-center"
-              />
-            </div>
-            <div class="grid text-center">
               <MenuItem name="Tres Leches" price="8.00" />
               <img
                 src={tresLechesImage}
