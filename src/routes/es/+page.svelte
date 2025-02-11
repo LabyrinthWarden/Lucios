@@ -5,7 +5,7 @@
 
   onMount(() => {
     toast.push(
-      "¡Buenas noticias! 🎉 ¡Llegaron el Tiramisú y Tres Leches!  ¡Agarra una cuchara y a disfrutar por solo $8! 🥄",
+      "¡Buenas noticias! 🎉 ¡Tres Leches ya está aquí! ¡Toma una cuchara y disfruta por solo $8! 🥄",
       {
         // Effectively disables autoclose when `initial`==`next`
         initial: 0,
