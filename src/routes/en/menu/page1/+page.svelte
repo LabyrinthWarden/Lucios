@@ -8,7 +8,7 @@
 
 <div class="carousel w-full mb-20">
   <!-- Menu Page One -->
-  <div class="carousel-item relative w-full">
+  <div id="page1" class="carousel-item relative w-full">
     <div class="w-full">
       <!-- Omelettes Section -->
       <div class="mb-6 text-center">
